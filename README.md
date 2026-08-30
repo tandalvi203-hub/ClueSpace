@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/cluespace-banner.png" alt="ClueSpace Banner" width="100%">
+  <img src="cluespace-banner.png" alt="ClueSpace Banner" width="750">
 </p>
-
-<h1 align="center">ClueSpace</h1>
+<h1 align="center" style="font-size: 60px; font-weight: 700;"><em>ClueSpace</em>
+</h1>
 
 <p align="center">
   <strong>Where telemetry becomes evidence, and anomalies become answers.</strong>
