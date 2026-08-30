@@ -1,18 +1,16 @@
 <p align="center">
   <img src="cluespace-banner.png" alt="ClueSpace Banner" width="750">
 </p>
-<h1 align="center" style="font-size: 60px; font-weight: 700;"><em>ClueSpace</em>
+
+<h1 align="center">
+  <em>ClueSpace</em>
 </h1>
 
-<p align="center">
-  <strong>Where telemetry becomes evidence, and anomalies become answers.</strong>
-</p>
+> **It doesn't just detect an anomaly. It reconstructs the evidence behind it.**
 
-<p align="center">
-  <em>It doesn't just detect an anomaly. It reconstructs the evidence behind it.</em>
-</p>
 
-<p align="center">
+
+<p align="left">
   <strong>
     ClueSpace reconstructs spacecraft incidents from telemetry and connects
     anomalies into evidence-backed investigation hypotheses so operators can
@@ -20,19 +18,14 @@
   </strong>
 </p>
 
-<p align="center">
-  <a href="VERCEL_APP_LINK">Vercel App</a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="DEMO_VIDEO_LINK">Demo Video</a>
+<p align="left">
+  <strong>Vercel App</strong> - YOUR_VERCEL_LINK
+  <br>
+  <strong>Demo Video</strong> - YOUR_DEMO_VIDEO_LINK
 </p>
-
----
 
 
 ## The Challenge
-
-### The Issue
-
 > **An anomaly is a signal. An incident is a story.**
 
 Spacecraft continuously generate telemetry across numerous channels. Detecting an anomaly tells engineers that something unusual occurred—but not necessarily how the surrounding incident unfolded.
@@ -45,7 +38,7 @@ This creates an **investigation gap**: engineers can identify abnormal signals, 
 
 That is the problem ClueSpace is built to solve.
 
----
+
 
 ## The ClueSpace Approach
 
@@ -90,7 +83,7 @@ Instead of asking only **"What was anomalous?"**, ClueSpace helps answer:
 - **What evidence supports the reconstruction?**
 - **What should an investigator examine next?**
 
----
+
 
 ## Core Capabilities
 
@@ -118,7 +111,7 @@ A dedicated investigation environment brings together the timeline, telemetry re
 
 The final investigation view turns the collected evidence into a structured brief with findings, priority, mission-impact basis, and recommended investigative actions.
 
----
+
 
 ## Product Walkthrough — 4 Screens
 
@@ -158,7 +151,7 @@ The final investigation view turns the collected evidence into a structured brie
 
 <!-- Add Investigation Workflow generated image here -->
 
----
+
 
 ## Intelligence & Evidence
 
