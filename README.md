@@ -35,7 +35,7 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 
 * **High-Dimensional Telemetry Floods:** Critical warning signals are buried under massive streams of sensor noise, overwhelming ground operators during tight orbital contact passes.
 * **Manual Forensics Delays:** Flight controllers must manually correlate flat 2D time-series charts across dozens of channels—a process taking hours or days when every second determines mission survival.
-* **Cascading Multi-Channel Blindspots: ** Related anomalies can appear across different channels and time windows, making the sequence of an incident difficult to reconstruct manually..
+* **Cascading Multi-Channel Blindspots:** Related anomalies can appear across different channels and time windows, making the sequence of an incident difficult to reconstruct manually..
 
 > **The real challenge isn't finding the anomaly. It's reconstructing the incident from fragmented evidence.**
 
