@@ -12,74 +12,41 @@
 **Try it here:** https://clue-space.vercel.app/ 
 
 
+<div align="center">
 
+# 🛰️ ClueSpace
+### Autonomous Spacecraft Telemetry Forensics & Incident Reconstruction
 
-**ClueSpace turns fragmented spacecraft telemetry into an evidence-backed incident investigation.**
+**Don't just detect the anomaly. Reconstruct the incident.**
 
-When a spacecraft anomaly occurs, detecting the abnormal signal is only the beginning. The harder problem is understanding what happened around it.
+[![IBM Bob Challenge](https://img.shields.io/badge/IBM%20Bob-AI%20Builders%20Challenge%20(August)-8A2BE2?style=for-the-badge&logo=ibm)](https://skillsbuild.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Stack](https://img.shields.io/badge/Frontend-React%20%7C%20Three.js%20%7C%20WebGL-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
+[![Backend](https://img.shields.io/badge/Python-FastAPI%20%7C%20SciPy-blue?style=for-the-badge&logo=python)](https://fastapi.tiangolo.com/)
 
-ClueSpace connects related telemetry events across **channels and time**, reconstructs how an incident unfolded, organizes the supporting evidence into an **Evidence Graph**, and produces a structured investigation with a **leading hypothesis, severity, confidence, and recommended investigative actions**.
-
-[🎥 Watch the Demo](YOUR_VIDEO_LINK)
-
-
-
-## At a Glance
-
-| | |
-|---|---|
-| **What** | Spacecraft telemetry incident investigation and reconstruction |
-| **Core Problem** | Fragmented anomalies make incident reconstruction difficult |
-| **Core Insight** | Related anomalies are clues belonging to the same incident |
-| **Investigation** | Temporal relationships + channel context + evidence graph |
-| **Output** | Structured investigation, hypothesis, supporting evidence, and next actions |
-| **Spatial View** | 3D visualization of affected spacecraft subsystems |
-| **Primary Development Tool** | IBM Bob |
-| **Challenge** | August 2026 — Advance Space Exploration with AI |
+[🎥 Watch the 3-Minute Demo](YOUR_YOUTUBE_LINK_HERE) • [🚀 Try the Live Platform](YOUR_LIVE_DEPLOYMENT_LINK_HERE)
 
 ---
 
-# 🔎 The Problem
+</div>
+
+## 📌 At a Glance
+
+| Attribute | Specification |
+| :--- | :--- |
+| **What** | Autonomous spacecraft telemetry forensics and incident reconstruction platform. |
+| **Core Problem** | Fragmented multi-channel anomalies make manual cascade diagnosis slow and prone to error. |
+| **Core Insight** | Related anomalies are interconnected clues belonging to a single causal incident. |
+| **Investigation Engine** | Temporal lead-lag matrix + 99% signal morphology match + Evidence Graph DAG. |
+| **Primary Output** | Reconstructed timelines, causal hypotheses, quantified evidence scores, and next-action playbooks. |
+| **Spatial Computing** | 3D satellite subsystem spatializer and 4D spacetime cascade trajectory canvas. |
+| **Primary AI Partner** | **IBM Bob** (Plan Mode architecture, algorithmic refinement, backend scaffolding). |
+| **Challenge Theme** | August 2026 — *Advance Space Exploration with AI*. |
+
+---
+
+## 🔎 The Problem
 
 ### An anomaly is a signal. An incident is a story.
 
-Spacecraft continuously generate telemetry across many channels and subsystems.
-
-When a signal deviates from its expected behavior, engineers can detect the anomaly. But an incident rarely appears as one isolated signal.
-
-Related events can occur across different channels, at different points in time, and within overlapping anomaly windows.
-
-The evidence is therefore scattered across:
-
-**Channels → Timestamps → Events → Anomaly Windows**
-
-An investigator may know that something went wrong, but still has to manually work out:
-
-- Which events belong to the same incident?
-- What happened first?
-- What happened next?
-- Which signals are related?
-- How did the incident unfold?
-- What evidence supports the investigation?
-- Where should the investigation continue?
-
-### The real challenge isn't finding the anomaly.
-
-### **It's reconstructing the incident from the evidence.**
-
----
-
-# ✨ The ClueSpace Approach
-
-ClueSpace treats anomalies as **clues**, rather than isolated alerts.
-
-The system brings related telemetry events together and reconstructs their relationships across time and channels.
-
-Instead of:
-
-```text
-Telemetry
-   ↓
-Anomaly Detected
-   ↓
-Alert
+Modern spacecraft continuously stream high-density telemetry across dozens of isolated subsystem channels (thermal, power, RF, and bus logic). When a sensor deviates, standard monitoring tools trigger an anomaly alarm. However, real-world orbital incidents rarely happen in isolation:
