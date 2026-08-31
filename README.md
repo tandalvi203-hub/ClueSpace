@@ -17,16 +17,16 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 
 | Attribute | Specification |
 | :--- | :--- |
-| **What** | Autonomous spacecraft telemetry forensics and root-cause incident reconstruction engine. |
-| **The Core Problem** | Multi-channel failure cascades produce massive sensor noise, making manual 2D chart diagnosis dangerously slow during short orbital contact windows. |
-| **The Core Insight** | An anomaly is just a signal—an incident is a story. Scattered telemetry spikes are interconnected forensic clues belonging to a single causal chain. |
-| **Forensics Pipeline** | **5-Stage Architecture:** Detect $\rightarrow$ Connect $\rightarrow$ Reconstruct $\rightarrow$ Investigate $\rightarrow$ Explain. |
-| **Interactive Spatialization** | **3D Satellite Subsystem Mesh** (pinpointing physical stress) & **4D Spacetime Engine** (scrubbing failure propagation vectors across time). |
-| **Forensic Evidence Engine** | Automated lead-lag sequence analyzer, **99% signal morphology pattern matching**, and Directed Acyclic Evidence Graphs (DAG). |
-| **Operational Output** | Automated incident dossiers with quantified severity/confidence scores and prioritized engineering recovery playbooks. |
-| **Data Foundation** | Built and evaluated on **163,199 real telemetry events** across **805 incident profiles** from the **ESA OPS-SAT mission**. |
-| **Primary AI Partner** | **IBM Bob** (Plan Mode architecture, forensics algorithm optimization, full-stack scaffolding). |
-| **Challenge Details** | **IBM Bob AI Builders Challenge** (August 2026) — *Advance Space Exploration with AI*. |
+| **What** | Spacecraft telemetry incident investigation and reconstruction platform. |
+| **Core Problem** | Fragmented anomalies across telemetry channels and time make manual incident reconstruction slow and difficult. |
+| **Core Insight** | An anomaly is a signal. An incident is a story. Related telemetry events can be connected across time and channels to reconstruct that story. |
+| **Investigation Pipeline** | **Detect → Connect → Reconstruct → Investigate → Explain** |
+| **Spatial Intelligence** | 3D spacecraft view for spatial anomaly context + 4D telemetry visualization for exploring how anomalies unfold across space and time. |
+| **Evidence Engine** | Temporal lead-lag analysis + signal-pattern similarity + Evidence Graph relationships. |
+| **Investigation Output** | Structured incident dossiers with severity, confidence, supporting evidence, leading hypothesis, and recommended investigative actions. |
+| **Data Foundation** | 163,199 telemetry events across 805 reconstructed incident profiles using ESA OPS-SAT mission data. |
+| **Primary Development Tool** | **IBM Bob** — architecture, backend implementation, testing, debugging, and refinement. |
+| **Challenge** | IBM Bob AI Builders Challenge — August 2026 · *Advance Space Exploration with AI* |
 
 ## The Problem
 
