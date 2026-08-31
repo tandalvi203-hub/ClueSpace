@@ -52,19 +52,15 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 
 ---
 ## AI Approach & Architecture
-
 ClueSpace uses a hybrid intelligence approach that combines structured telemetry analysis, temporal reasoning, evidence relationships, investigation scoring, and AI-assisted explanation.
-
 The core principle is simple:
 
 **Telemetry → Evidence → Investigation → Hypothesis → Action**
 
 ### 1. Telemetry Ingestion & Validation
-
 ClueSpace loads structured spacecraft telemetry and anomaly events, validates their schema, and extracts key attributes such as timestamps, channels, anomaly scores, severity, and significance.
 
 ### 2. Temporal & Signal Analysis
-
 Related events are analyzed across channels and time using:
 
 - Lead-lag relationships
@@ -72,28 +68,22 @@ Related events are analyzed across channels and time using:
 - Event sequence consistency
 - Signal-pattern similarity
 - Deviation and significance metrics
-
 This transforms isolated anomalies into relationships that can be investigated together.
 
 ### 3. Evidence Graph Construction
-
 Related telemetry events are connected into an Evidence Graph. Nodes represent relevant events or channels, while relationships capture the evidence connecting them.
-
 This provides an inspectable structure for reconstructing how an incident unfolded.
 
 ### 4. Investigation Scoring
-
 ClueSpace evaluates the reconstructed evidence using severity, significance, relationship strength, sequence consistency, and other investigation metrics to produce an overall investigation confidence.
 
 ### 5. AI-Assisted Investigation
-
 The structured evidence is used to generate:
 
 - A leading investigation hypothesis
 - Supporting evidence
 - A clear explanation of the incident
 - Prioritized recommended investigative actions
-
 The AI operates on the reconstructed evidence rather than replacing the underlying telemetry analysis.
 
 > **ClueSpace doesn't just ask whether a signal is abnormal. It connects the evidence to help explain what happened and what to investigate next.**
