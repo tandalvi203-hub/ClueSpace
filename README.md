@@ -14,21 +14,7 @@
 
 <div align="center">
 
-# 🛰️ ClueSpace
-### Autonomous Spacecraft Telemetry Forensics & Incident Reconstruction
 
-**Don't just detect the anomaly. Reconstruct the incident.**
-
-[![IBM Bob Challenge](https://img.shields.io/badge/IBM%20Bob-AI%20Builders%20Challenge%20(August)-8A2BE2?style=for-the-badge&logo=ibm)](https://skillsbuild.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stack](https://img.shields.io/badge/Frontend-React%20%7C%20Three.js%20%7C%20WebGL-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
-[![Backend](https://img.shields.io/badge/Python-FastAPI%20%7C%20SciPy-blue?style=for-the-badge&logo=python)](https://fastapi.tiangolo.com/)
-
-[🎥 Watch the 3-Minute Demo](YOUR_YOUTUBE_LINK_HERE) • [🚀 Try the Live Platform](YOUR_LIVE_DEPLOYMENT_LINK_HERE)
-
----
-
-</div>
 
 ## 📌 At a Glance
 
