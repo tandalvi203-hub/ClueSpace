@@ -51,6 +51,15 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 ---
 
 ## 🖥️ System Walkthrough & Visual Proof
+## 🖥️ System Walkthrough & Visual Proof
+
+| 🛰️ **3D Anomaly Spatializer** | ⏱️ **4D Telemetry Spacetime** |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/f23dcddc-dcfa-4498-a86c-434a90f4a4f4" width="100%" alt="3D Anomaly Spatializer"/> | <img src="https://github.com/user-attachments/assets/ed6e9b99-ab20-420a-b941-2287e1e836c2" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
+| *Pins anomalies to physical satellite components with real-time severity filters.* | *Visualizes multi-channel failure propagation vectors along a 4D spacetime continuum.* |
+| 📊 **Mission Control Intelligence** | 🔬 **Forensic Investigation Workspace** |
+| <img src="https://github.com/user-attachments/assets/617f3057-cfd4-4f94-87a7-7c25526cbf2e" width="100%" alt="Mission Control Dashboard"/> | <img src="https://github.com/user-attachments/assets/8c33b35d-7a0a-4080-94e9-263e785dc00d" width="100%" alt="Forensic Investigation Workspace"/> |
+| *Fleet-wide operational triage across 805 incidents and 163k+ telemetry data points.* | *Dossier with activation sequences, 99% pattern match links, and recovery playbooks.* |
 
 ### 1. 3D Anomaly Spatializer
 Pins telemetry anomalies to physical satellite components with real-time severity inspection.
