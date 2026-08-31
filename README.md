@@ -79,7 +79,7 @@ Visualizes multi-channel cascade propagation vectors along an interactive 4D spa
 Fleet-wide operational triage across 805 reconstructed incidents and 163k+ telemetry data points.
 
 <p align="center">
-  <img src="<isrc="https://github.com/user-attachments/assets/617f3057-cfd4-4f94-87a7-7c25526cbf2e" " width="95%" alt="Mission Control Dashboard"/>
+  <img src="https://github.com/user-attachments/assets/617f3057-cfd4-4f94-87a7-7c25526cbf2e" width="95%" alt="Mission Control Dashboard"/>
 </p>
 
 * **Fleet Triage:** Classifies anomalies into Multi-Channel (60.1%) vs. Single-Channel (39.9%) incidents.
@@ -91,7 +91,7 @@ Fleet-wide operational triage across 805 reconstructed incidents and 163k+ telem
 Automated incident dossier with activation sequences, 99% pattern match links, and recovery playbooks.
 
 <p align="center">
-  <img src="PASTE_INVESTIGATION_URL_HERE" width="95%" alt="Forensic Investigation Workspace"/>
+  <img src="https://github.com/user-attachments/assets/8c33b35d-7a0a-4080-94e9-263e785dc00d" width="95%" alt="Forensic Investigation Workspace"/>
 </p>
 
 * **Temporal Activation Sequence:** Reconstructs the exact chain reaction from the initiator (`CADC0888`) across downstream subsystems over a 57-second activation span.
