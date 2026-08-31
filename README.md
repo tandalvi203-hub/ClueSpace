@@ -25,7 +25,7 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 | **Primary AI Partner** | **IBM Bob** (Plan Mode architecture, algorithmic refinement, backend scaffolding). |
 | **Challenge Theme** | August 2026 — *Advance Space Exploration with AI*. |
 
-## 🔎 The Problem
+## The Problem
 
 Modern spacecraft continuously stream high-density telemetry across dozens of isolated subsystem channels (thermal, power, RF, and bus logic). When compound orbital incidents occur:
 
@@ -37,7 +37,7 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 
 ---
 
-## ⚡ The Solution
+## The Solution
 
 **ClueSpace** is an autonomous incident investigation engine that transforms raw satellite telemetry into spatialized intelligence and actionable recovery protocols.
 
@@ -48,7 +48,7 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 
 ---
 
-## 🖥️ System Walkthrough & Visual Proof
+## System Walkthrough & Visual Proof
 
 ClueSpace is designed as an investigation workflow—not just a collection of dashboards. The following views show how an operator moves from anomaly location and temporal context to fleet-level triage and evidence-backed incident investigation.
 
@@ -62,7 +62,7 @@ ClueSpace is designed as an investigation workflow—not just a collection of da
 
 ---
 
-## 🛰️ The 5-Stage Forensics Pipeline
+## The 5-Stage Forensics Pipeline
 
 1. **Detect (`01`):** Ingests raw telemetry points (OPS-SAT real spacecraft data) and flags abnormal behavioral drift across channels.
 2. **Connect (`02`):** Computes pairwise lead-lag dependencies to uncover hidden temporal links between isolated telemetry channels.
@@ -90,7 +90,7 @@ It is to reduce the work required to assemble the evidence behind that judgment.
 
 ---
 
-## ⚡ Why ClueSpace is Different
+## Why ClueSpace is Different
 
 | Traditional Anomaly Monitoring | ClueSpace Telemetry Forensics |
 | :--- | :--- |
@@ -103,7 +103,7 @@ It is to reduce the work required to assemble the evidence behind that judgment.
 
 ---
 
-## 🛠️ How IBM Bob Was Used
+## How IBM Bob Was Used
 
 **IBM Bob** served as our primary AI systems architect and pair programmer throughout development:
 
