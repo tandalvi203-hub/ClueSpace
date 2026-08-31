@@ -4,8 +4,6 @@
 
 # ClueSpace — IBM Bob August Challenge
 
-*Where telemetry becomes evidence, and anomalies become answers. Turn raw spacecraft telemetry into 3D spatialized root-cause investigations.*
-
 ClueSpace is a spacecraft incident investigation system that turns fragmented telemetry anomalies into a connected incident story. It links related events across channels and time, reconstructs how an incident unfolded, visualizes the evidence through an interactive Evidence Graph and 3D spacecraft view, and generates a structured investigation with a leading hypothesis, confidence, supporting evidence, and recommended next actions.
 
 **Challenge theme:** Space Telemetry & Autonomous Mission Intelligence  
@@ -33,7 +31,7 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 
 * **High-Dimensional Telemetry Floods:** Critical warning signals are buried under massive streams of sensor noise, overwhelming ground operators during tight orbital contact passes.
 * **Manual Forensics Delays:** Flight controllers must manually correlate flat 2D time-series charts across dozens of channels—a process taking hours or days when every second determines mission survival.
-* **Cascading Multi-Channel Blindspots:** Over **60.1% of critical orbital failures are multi-channel cascades**, where the root cause (such as a high-speed transponder bus anomaly) is physically and temporally separated from the symptom (such as an RF amplifier thermal shutdown).
+* **Cascading Multi-Channel Blindspots: ** Related anomalies can appear across different channels and time windows, making the sequence of an incident difficult to reconstruct manually..
 
 > **The real challenge isn't finding the anomaly. It's reconstructing the incident from fragmented evidence.**
 
@@ -71,6 +69,25 @@ ClueSpace is designed as an investigation workflow—not just a collection of da
 3. **Reconstruct (`03`):** Projects sensor anomalies directly onto interactive 3D satellite coordinates and 4D spacetime point clouds.
 4. **Investigate (`04`):** Measures sequence consistency, time gaps ($t_{\text{gap}} < 2\text{s}$), and 99% signal pattern similarity across active nodes.
 5. **Explain (`05`):** Synthesizes forensic findings into clear root-cause conclusions with prioritized, actionable diagnostic procedures.
+
+---
+## 🔬 What an Investigation Produces
+
+For each reconstructed incident, ClueSpace brings the investigation into one place:
+
+- Incident timeline
+- Affected telemetry channels
+- Temporal relationships
+- Evidence Graph
+- Signal-pattern relationships
+- Severity and significance
+- Investigation confidence
+- Leading hypothesis
+- Recommended investigative actions
+
+The goal is not to replace the engineer's judgment.
+
+It is to reduce the work required to assemble the evidence behind that judgment.
 
 ---
 
