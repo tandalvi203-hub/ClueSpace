@@ -12,6 +12,7 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 **Try it here:** https://clue-space.vercel.app/
 
 **Demo video:** 
+
 <br>
 
 ## At a Glance
@@ -28,6 +29,7 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 | **Data Foundation** | 163,199 telemetry events across 805 reconstructed incident profiles using ESA OPS-SAT mission data. |
 | **Primary Development Tool** | **IBM Bob** — architecture, backend implementation, testing, debugging, and refinement. |
 
+<br>
 
 ## The Problem
 
@@ -40,6 +42,7 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 > **The real challenge isn't finding the anomaly. It's reconstructing the incident from fragmented evidence.**
 
 
+<br>
 
 ## The Solution
 
@@ -50,7 +53,7 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 * **Autonomous Evidence Graphing:** Reconstructs pairwise activation sequences, calculates lead-lag precedence, and evaluates **99% signal pattern similarities** to confirm causal dependencies.
 * **Automated Diagnostic Playbooks:** Synthesizes complex telemetry data into ranked operational directives (e.g., transponder bus isolation, load shedding, thermal loop resets).
 
-
+<br>
 
 ## AI Approach & Architecture
 
@@ -61,6 +64,8 @@ The related events are then organized into an **Evidence Graph**, creating a tra
 The underlying telemetry analysis remains deterministic and inspectable, while AI is used to make the resulting investigation easier to understand and act upon.
 
 > **Telemetry → Evidence → Investigation → Hypothesis → Action**
+
+<br>
 
 ## System Walkthrough & Visual Proof
 
@@ -74,7 +79,7 @@ ClueSpace is designed as an investigation workflow—not just a collection of da
 | <img src="https://github.com/user-attachments/assets/617f3057-cfd4-4f94-87a7-7c25526cbf2e" width="100%" alt="Mission Control Dashboard"/> | <img src="https://github.com/user-attachments/assets/8c33b35d-7a0a-4080-94e9-263e785dc00d" width="100%" alt="Forensic Investigation Workspace"/> |
 | *Fleet-wide operational triage across 805 incidents and 163k+ telemetry data points.* | *Dossier with activation sequences, 99% pattern match links, and recovery playbooks.* |
 
-
+<br>
 
 ## The 5-Stage Forensics Pipeline
 
@@ -84,6 +89,7 @@ ClueSpace is designed as an investigation workflow—not just a collection of da
 4. **Investigate (`04`):** Measures sequence consistency, time gaps ($t_{\text{gap}} < 2\text{s}$), and 99% signal pattern similarity across active nodes.
 5. **Explain (`05`):** Synthesizes forensic findings into clear root-cause conclusions with prioritized, actionable diagnostic procedures.
 
+<br>
 
 ## What an Investigation Produces
 
@@ -102,7 +108,7 @@ For each reconstructed incident, ClueSpace brings the investigation into one pla
 The goal is not to replace the engineer's judgment.
 It is to reduce the work required to assemble the evidence behind that judgment.
 
-
+<br>
 
 ## How IBM Bob Was Used
 
@@ -113,7 +119,7 @@ It is to reduce the work required to assemble the evidence behind that judgment.
 * **WebGL & 3D Optimization:** Utilized Bob to implement 3D coordinate bindings from sensor IDs to satellite meshes and optimize rendering performance for 4D spacetime point clouds.
 * **Testing & Robustness:** Iterated with Bob to construct unit test suites for schema validation, temporal graph construction, and edge-case multi-channel cascades.
 
-
+<br>
 
 ## Why It Matters
 
