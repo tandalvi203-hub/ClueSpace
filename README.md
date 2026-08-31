@@ -13,12 +13,24 @@
 
 
 
-## Motivation
+## The Problem
 
-Modern satellites generate hundreds of thousands of multi-channel telemetry data points every second. When complex anomalies occur in orbit, manual incident diagnosis across isolated 2D charts takes hours or even days—wasting critical time when spacecraft assets are on the line.
+Modern spacecraft stream hundreds of thousands of multi-channel telemetry data points every second across isolated subsystems (thermal, power, communications, and bus logic). When compound orbital incidents occur:
 
-**ClueSpace** is an autonomous telemetry forensics and root-cause reconstruction engine. It ingests high-frequency spacecraft sensor streams, reconstructs cascade anomalies in interactive 3D/4D space, and correlates multi-channel telemetry into clear, evidence-backed diagnostic playbooks.
+* **High-Dimensional Telemetry Floods:** Critical failure signatures are buried under massive, high-velocity sensor noise, overwhelming ground operators during tight orbital contact windows.
+* **Manual Forensics Delays:** Flight controllers must manually correlate flat 2D time-series charts across dozens of channels—a process taking hours or days when every second determines mission survival.
+* **Cascading Multi-Channel Blindspots:** Over **60.1% of critical orbital failures are multi-channel cascades**, where the root cause is physically and temporally separated from the symptom, making traditional threshold-based alerts ineffective.
 
+---
+
+## The Solution
+
+**ClueSpace** is an autonomous telemetry forensics and root-cause reconstruction platform that transforms raw satellite sensor streams into actionable, spatialized intelligence.
+
+* **3D Anomaly Spatialization:** Projects real-time telemetry deviations directly onto an interactive 3D spacecraft mesh, allowing ground teams to visually isolate subsystem stress and channel-level anomalies instantly.
+* **4D Spacetime Propagation:** Maps multi-channel failure vectors across time and space, enabling operators to scrub through millisecond cascades and trace exact fault propagation paths.
+* **Automated Evidence Graphing:** Reconstructs pairwise activation sequences, evaluates sequence consistency, and identifies **99% signal morphology similarities** to confirm causal dependencies.
+* **Actionable Diagnostic Playbooks:** Delivers prioritized recovery protocols (e.g., transponder bus isolation, load shedding, thermal loop resets) directly to flight controllers to resolve anomalies before they turn catastrophic.
 
 
 ## How to Use
@@ -29,19 +41,15 @@ Modern satellites generate hundreds of thousands of multi-channel telemetry data
 4. **Select an Incident Investigation** — Filter by severity (Critical / High / Moderate / Low) and load complete forensic cases (e.g., Incident `INV-988`).
 5. **Review Evidence Graph & Playbook** — Inspect the millisecond activation sequence, 99% signal pattern similarity links, and execute priority-ranked diagnostic actions.
 
----
 
-## Demo
-
-**Demo video:** https://youtu.be/your-video-link
 
 | | |
 |:---:|:---:|
-| <img src="<img width="100%" height="1022" alt="3D Anomaly Spatialize" src="https://github.com/user-attachments/assets/f23dcddc-dcfa-4498-a86c-434a90f4a4f4"/>
- | <img src="screenshots/telemetry_spacetime.jpg" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
-| <img src="screenshots/mission_control.jpg" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.jpg" width="100%" alt="Forensic Investigation Workspace"/> |
+| <img src="https://github.com/user-attachments/assets/f23dcddc-dcfa-4498-a86c-434a90f4a4f4" width="100%" alt="3D Anomaly Spatializer"/> | <img src="<img width="1897" height="1022" alt="image" src="https://github.com/user-attachments/assets/025a60cd-cb3f-4635-a947-5e8d8e0e504c" />
+" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
+| <img src="PASTE_MISSION_CONTROL_GITHUB_URL_HERE" width="100%" alt="Mission Control Dashboard"/> | <img src="PASTE_INVESTIGATION_GITHUB_URL_HERE" width="100%" alt="Forensic Investigation Workspace"/> |
 
----
+
 
 ## Tech Stack
 ## AI Approach and Architecture
