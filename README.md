@@ -1,42 +1,48 @@
-# ClueSpace — Space Mission Incident Investigator
+<div align="center">
 
-*Where telemetry becomes evidence, and anomalies become answers.*
+# 🛰️ ClueSpace
+### Autonomous Spacecraft Telemetry Forensics & Root-Cause Reconstruction
 
-**Challenge theme:** Space Telemetry & Autonomous AI Systems  
-**Challenge:** IBM Bob AI Builders Challenge (August)
+**Transforming chaotic multi-sensor telemetry into spatialized evidence and automated recovery actions.**
 
-**Try it here:** https://cluespace-app.railway.app  
-*(Replace with your live deployment link)*
+[![Challenge](https://img.shields.io/badge/IBM%20SkillsBuild-AI%20Builders%20Challenge-blue?style=for-the-badge&logo=IBM)](https://skillsbuild.org/)
+[![Stack](https://img.shields.io/badge/Three.js-WebGL%203D-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
+[![Backend](https://img.shields.io/badge/Python-FastAPI-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 
----
-
-## Motivation
-
-Modern satellites generate hundreds of thousands of multi-channel telemetry data points every second. When complex anomalies occur in orbit, manual incident diagnosis across isolated 2D charts takes hours or even days—wasting critical time when spacecraft assets are on the line.
-
-**ClueSpace** is an autonomous telemetry forensics and root-cause reconstruction engine. It ingests high-frequency spacecraft sensor streams, reconstructs cascade anomalies in interactive 3D/4D space, and correlates multi-channel telemetry into clear, evidence-backed diagnostic playbooks.
+[Live Application](#) • [Demo Video](#) • [Architecture](#system-architecture)
 
 ---
 
-## How to Use
+</div>
 
-1. **Explore Mission Control** — View real-time fleet intelligence, severity distributions, and cross-channel failure classifications across 805+ reconstructed incidents.
-2. **Launch the Anomaly Spatializer** — Inspect live telemetry mapped directly onto a 3D satellite model to see physical subsystem stress and channel-level deviations.
-3. **Scrub Telemetry Spacetime** — Play the 4D timeline visualizer to watch how anomaly clusters physically propagate across telemetry channels.
-4. **Select an Incident Investigation** — Filter by severity (Critical / High / Moderate / Low) and load complete forensic cases (e.g., Incident `INV-988`).
-5. **Review Evidence Graph & Playbook** — Inspect the millisecond activation sequence, 99% signal pattern similarity links, and execute priority-ranked diagnostic actions.
+## 🌌 The Mission Problem
 
----
+During an orbital anomaly, spacecraft flight controllers receive high-dimensional telemetry streams containing hundreds of thousands of sensor readings. 
 
-## Demo
-
-**Demo video:** https://youtu.be/your-video-link
-
-| | |
-|:---:|:---:|
-| <img src="screenshots/hero_spatializer.png" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/spacetime_4d.png" width="100%" alt="Telemetry Spacetime 4D"/> |
-| <img src="screenshots/mission_control.png" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.png" width="100%" alt="Forensic Investigation Workspace"/> |
+* **The Sifting Dilemma:** Identifying the root cause across overlapping thermal, power, and RF channels is like finding a needle in a digital haystack.
+* **Cascade Blindspots:** Over **60.1% of critical mission anomalies are multi-channel cascades**, where the true initiator channel triggers chained failures across detached subsystems.
+* **Cost of Delay:** Manual 2D telemetry analysis takes hours—costing irreplaceable mission time during critical orbital passes.
 
 ---
 
-## Tech Stack
+## ⚡ Solution: ClueSpace
+
+**ClueSpace** is an autonomous incident investigation engine that ingests raw telemetry, reconstructs cross-sensor anomalies in **3D coordinate space and 4D spacetime**, generates statistical evidence graphs, and produces automated diagnostic playbooks for flight control teams.
+
+---
+
+## 🖥️ System Walkthrough & Key Capabilities
+
+| **3D Anomaly Spatializer** | **4D Telemetry Spacetime** |
+| :---: | :---: |
+| <img src="screenshots/anomaly_spatializer.png" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/telemetry_spacetime.png" width="100%" alt="4D Telemetry Spacetime Visualizer"/> |
+| *Pins telemetry anomalies to physical satellite components with real-time severity filters.* | *Maps sensor events along a 4D spacetime continuum to track failure propagation vectors.* |
+
+| **Mission Control Intelligence** | **Forensic Investigation Workspace** |
+| :---: | :---: |
+| <img src="screenshots/mission_control.png" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.png" width="100%" alt="Investigation Workspace"/> |
+| *Fleet-level triage tracking 805 incidents, severity distributions, and vulnerable channels.* | *Reconstructs millisecond activation sequences, 99% pattern matches, and diagnostic playbooks.* |
+
+---
+
+## 🔄 The 5-Stage Forensics Pipeline
