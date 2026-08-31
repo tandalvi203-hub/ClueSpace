@@ -85,20 +85,7 @@ ClueSpace uses a modular pipeline that transforms fragmented spacecraft telemetr
 | **AI Layer** | Interprets the structured investigation evidence to generate a leading hypothesis, explanation, and recommended next actions. |
 | **Visualization Layer** | Presents mission-level intelligence, incident timelines, Evidence Graphs, 3D spacecraft context, 4D telemetry views, and investigation dossiers. |
 
-### AI Approach
 
-ClueSpace follows a **hybrid intelligence approach**:
-
-- **Deterministic analysis** establishes the underlying telemetry relationships and investigation metrics.
-- **Evidence Graph reasoning** organizes related events into an inspectable incident structure.
-- **AI-assisted reasoning** converts the structured evidence into an understandable investigation hypothesis and recommended actions.
-- **Human operators remain in the loop**, allowing investigators to inspect the evidence behind each conclusion.
-
-> **The AI explains the evidence; it does not replace the evidence.**
-
-### Technology Stack
-
-**Python** · **Pandas** · **Pydantic** · **Pytest** · **Streamlit** · **Plotly** · **Git/GitHub** · **IBM Bob**
 
 
 ## System Walkthrough & Visual Proof
