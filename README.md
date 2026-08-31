@@ -6,9 +6,6 @@
   <em>ClueSpace</em>
 </h1>
 
-> **It doesn't just detect an anomaly. It reconstructs the evidence behind it.**
-
-
 
 <p align="left">
   <strong>
@@ -43,34 +40,6 @@ That is the problem ClueSpace is built to solve.
 ## The ClueSpace Approach
 
 ClueSpace moves the investigation process from isolated anomaly detection toward **evidence-based incident reconstruction**.
-
-<p align="center">
-
-**Telemetry Signals**
-
-↓
-
-**Anomalies & Events**
-
-↓
-
-**Temporal Relationships**
-
-↓
-
-**Cross-Channel Evidence**
-
-↓
-
-**Incident Reconstruction**
-
-↓
-
-**Investigation Findings**
-
-↓
-
-**Operator-Ready Brief**
 
 </p>
 
@@ -115,9 +84,9 @@ The final investigation view turns the collected evidence into a structured brie
 
 ## Product Walkthrough — 4 Screens
 
-### 01 — Mission Control
+### 01 — Anomaly Spatializer
 
-*Mission-level visibility into reconstructed incidents, telemetry activity, severity, and affected channels.*
+
 
 <!-- Add Mission Control screenshot here -->
 
