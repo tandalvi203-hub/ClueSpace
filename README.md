@@ -43,17 +43,6 @@ Modern spacecraft stream hundreds of thousands of multi-channel telemetry data p
 
 
 
-| | |
-|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/f23dcddc-dcfa-4498-a86c-434a90f4a4f4" width="100%" alt="3D Anomaly Spatializer"/> 
-
-" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
-| <img src="<img width="1902" height="1033" alt="image" src="https://github.com/user-attachments/assets/87cacc76-ea70-4037-8178-aaea388d32d1" />
-" width="100%" alt="Mission Control Dashboard"/> | <img src="<img width="1891" height="1016" alt="image" src="https://github.com/user-attachments/assets/44a110a5-ff23-477d-ae09-491dc0bb964e" />
-" width="100%" alt="Forensic Investigation Workspace"/> |
-
-
-
 ## Tech Stack
 ## AI Approach and Architecture
 
