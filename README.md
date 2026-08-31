@@ -14,16 +14,9 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 
 ## At a Glance
 
-| Attribute | Specification |
-| :--- | :--- |
-| **What** | Autonomous spacecraft telemetry forensics and incident reconstruction platform. |
-| **Core Problem** | Fragmented multi-channel anomalies make manual cascade diagnosis slow and prone to error. |
-| **Core Insight** | Related anomalies are interconnected clues belonging to a single causal incident. |
-| **Investigation Engine** | Temporal lead-lag matrix + 99% signal morphology match + Evidence Graph DAG. |
-| **Primary Output** | Reconstructed timelines, causal hypotheses, quantified evidence scores, and next-action playbooks. |
-| **Spatial Computing** | 3D satellite subsystem spatializer and 4D spacetime cascade trajectory canvas. |
-| **Primary AI Partner** | **IBM Bob** (Plan Mode architecture, algorithmic refinement, backend scaffolding). |
-| **Challenge Theme** | August 2026 — *Advance Space Exploration with AI*. |
+| **Core Insight** | Related anomalies are interconnected clues that can be reconstructed into a coherent incident timeline. |
+| **Investigation Engine** | Temporal relationships + signal similarity + Evidence Graph + investigation scoring. |
+| **Primary Output** | Reconstructed timelines, leading investigation hypotheses, quantified evidence scores, and recommended investigative actions. |
 
 ## The Problem
 
