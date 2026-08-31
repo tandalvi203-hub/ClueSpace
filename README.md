@@ -12,11 +12,10 @@
 **Try it here:** https://clue-space.vercel.app/ 
 
 
-<div align="center">
 
 
 
-## 📌 At a Glance
+## At a Glance
 
 | Attribute | Specification |
 | :--- | :--- |
