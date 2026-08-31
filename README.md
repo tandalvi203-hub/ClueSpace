@@ -9,14 +9,24 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 **Challenge theme:** Space Telemetry & Autonomous Mission Intelligence  
 **Challenge:** IBM Bob AI Builders Challenge (August)
 
-**Try it here:** https://clue-space.vercel.app/ 
+**Try it here:** https://clue-space.vercel.app/
+**[Watch the 2–3 Minute Demo](YOUR_YOUTUBE_LINK)** 
 
 
-## At a Glance
+## 📌 At a Glance
 
-| **Core Insight** | Related anomalies are interconnected clues that can be reconstructed into a coherent incident timeline. |
-| **Investigation Engine** | Temporal relationships + signal similarity + Evidence Graph + investigation scoring. |
-| **Primary Output** | Reconstructed timelines, leading investigation hypotheses, quantified evidence scores, and recommended investigative actions. |
+| Attribute | Specification |
+| :--- | :--- |
+| **What** | Autonomous spacecraft telemetry forensics and root-cause incident reconstruction engine. |
+| **The Core Problem** | Multi-channel failure cascades produce massive sensor noise, making manual 2D chart diagnosis dangerously slow during short orbital contact windows. |
+| **The Core Insight** | An anomaly is just a signal—an incident is a story. Scattered telemetry spikes are interconnected forensic clues belonging to a single causal chain. |
+| **Forensics Pipeline** | **5-Stage Architecture:** Detect $\rightarrow$ Connect $\rightarrow$ Reconstruct $\rightarrow$ Investigate $\rightarrow$ Explain. |
+| **Interactive Spatialization** | **3D Satellite Subsystem Mesh** (pinpointing physical stress) & **4D Spacetime Engine** (scrubbing failure propagation vectors across time). |
+| **Forensic Evidence Engine** | Automated lead-lag sequence analyzer, **99% signal morphology pattern matching**, and Directed Acyclic Evidence Graphs (DAG). |
+| **Operational Output** | Automated incident dossiers with quantified severity/confidence scores and prioritized engineering recovery playbooks. |
+| **Data Foundation** | Built and evaluated on **163,199 real telemetry events** across **805 incident profiles** from the **ESA OPS-SAT mission**. |
+| **Primary AI Partner** | **IBM Bob** (Plan Mode architecture, forensics algorithm optimization, full-stack scaffolding). |
+| **Challenge Details** | **IBM Bob AI Builders Challenge** (August 2026) — *Advance Space Exploration with AI*. |
 
 ## The Problem
 
@@ -83,18 +93,7 @@ It is to reduce the work required to assemble the evidence behind that judgment.
 
 ---
 
-## Why ClueSpace is Different
 
-| Traditional Anomaly Monitoring | ClueSpace Telemetry Forensics |
-| :--- | :--- |
-| Detects isolated anomalies | Reconstructs multi-channel incidents |
-| Focuses on single-channel thresholds | Correlates cross-channel cascade dependencies |
-| Signal-centric (flags raw spikes) | Evidence-centric (builds causal chains) |
-| Lacks temporal relationship context | Quantifies lead-lag precedence and duration overlap |
-| Stops at alerting | Delivers hypotheses and prioritized recovery actions |
-| Flat 2D strip-charts | Interactive 3D component spatialization & 4D spacetime trajectories |
-
----
 
 ## How IBM Bob Was Used
 
