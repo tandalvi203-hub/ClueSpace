@@ -51,7 +51,6 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 ---
 
 ## 🖥️ System Walkthrough & Visual Proof
-## 🖥️ System Walkthrough & Visual Proof
 
 | 🛰️ **3D Anomaly Spatializer** | ⏱️ **4D Telemetry Spacetime** |
 | :---: | :---: |
@@ -60,52 +59,6 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 | 📊 **Mission Control Intelligence** | 🔬 **Forensic Investigation Workspace** |
 | <img src="https://github.com/user-attachments/assets/617f3057-cfd4-4f94-87a7-7c25526cbf2e" width="100%" alt="Mission Control Dashboard"/> | <img src="https://github.com/user-attachments/assets/8c33b35d-7a0a-4080-94e9-263e785dc00d" width="100%" alt="Forensic Investigation Workspace"/> |
 | *Fleet-wide operational triage across 805 incidents and 163k+ telemetry data points.* | *Dossier with activation sequences, 99% pattern match links, and recovery playbooks.* |
-
-### 1. 3D Anomaly Spatializer
-Pins telemetry anomalies to physical satellite components with real-time severity inspection.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f23dcddc-dcfa-4498-a86c-434a90f4a4f4" width="95%" alt="3D Anomaly Spatializer Screen"/>
-</p>
-
-* **Physical Component Mapping:** Translates abstract sensor IDs (`CADC0888`, `CADC0872`) to physical subsystems (solar arrays, communications dish, bus logic).
-* **Channel Inspector:** Displays peak anomaly scores, duration, data verification, and live telemetry deviation snippets.
-
----
-
-### 2. 4D Telemetry Spacetime Engine
-Visualizes multi-channel cascade propagation vectors along an interactive 4D spacetime continuum.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ed6e9b99-ab20-420a-b941-2287e1e836c2" width="95%" alt="Telemetry Spacetime 4D Visualizer"/>
-
-* **Spatiotemporal Event Clusters:** Maps anomaly occurrences across both 3D coordinate space and time simultaneously.
-* **Timeline Scrubber:** Allows flight controllers to scrub across milliseconds and visually track cascade propagation vectors.
-
----
-
-### 3. Mission Control Fleet Intelligence
-Fleet-wide operational triage across 805 reconstructed incidents and 163k+ telemetry data points.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/617f3057-cfd4-4f94-87a7-7c25526cbf2e" width="95%" alt="Mission Control Dashboard"/>
-</p>
-
-* **Fleet Triage:** Classifies anomalies into Multi-Channel (60.1%) vs. Single-Channel (39.9%) incidents.
-* **Risk Distribution:** Real-time tracking of incident severity (Critical, High, Moderate, Low) and most vulnerable spacecraft channels.
-
----
-
-### 4. Forensic Investigation Workspace & Playbooks
-Automated incident dossier with activation sequences, 99% pattern match links, and recovery playbooks.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8c33b35d-7a0a-4080-94e9-263e785dc00d" width="95%" alt="Forensic Investigation Workspace"/>
-</p>
-
-* **Temporal Activation Sequence:** Reconstructs the exact chain reaction from the initiator (`CADC0888`) across downstream subsystems over a 57-second activation span.
-* **Evidence Graph DAG:** Measures sequence consistency, duration overlap, and signal morphology correlations.
-* **Automated Diagnostic Actions:** Delivers ranked remediation playbooks directly to flight control teams.
 
 ---
 
