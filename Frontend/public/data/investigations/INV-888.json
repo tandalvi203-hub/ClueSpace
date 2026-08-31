@@ -1,0 +1,4622 @@
+{
+  "investigation_id": "INV-888",
+  "spacecraft_incident_id": 888,
+  "generated_at": "2026-08-25T18:50:53.948869Z",
+  "start_time": "2022-06-02T07:04:30Z",
+  "end_time": "2022-06-02T07:11:42Z",
+  "duration_sec": 432,
+  "timeline": [
+    {
+      "timestamp": "2022-06-02T07:04:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5172239561588201,
+      "value": -0.0000325753
+    },
+    {
+      "timestamp": "2022-06-02T07:04:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7367656380345532,
+      "value": -0.0000331586
+    },
+    {
+      "timestamp": "2022-06-02T07:04:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6559035724470469,
+      "value": -0.000032082
+    },
+    {
+      "timestamp": "2022-06-02T07:04:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000326118
+    },
+    {
+      "timestamp": "2022-06-02T07:04:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000325081
+    },
+    {
+      "timestamp": "2022-06-02T07:04:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000315563
+    },
+    {
+      "timestamp": "2022-06-02T07:04:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4313540186031382,
+      "value": -0.0000325242
+    },
+    {
+      "timestamp": "2022-06-02T07:04:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4229990610939724,
+      "value": -0.0000319705
+    },
+    {
+      "timestamp": "2022-06-02T07:04:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000322827
+    },
+    {
+      "timestamp": "2022-06-02T07:04:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000320197
+    },
+    {
+      "timestamp": "2022-06-02T07:04:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000319503
+    },
+    {
+      "timestamp": "2022-06-02T07:04:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4333679998483785,
+      "value": -0.0000322067
+    },
+    {
+      "timestamp": "2022-06-02T07:04:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4540850493119435,
+      "value": -0.0000322618
+    },
+    {
+      "timestamp": "2022-06-02T07:04:43Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000318659
+    },
+    {
+      "timestamp": "2022-06-02T07:04:44Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000319052
+    },
+    {
+      "timestamp": "2022-06-02T07:04:45Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000316383
+    },
+    {
+      "timestamp": "2022-06-02T07:04:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3852470850385682,
+      "value": -0.0000313795
+    },
+    {
+      "timestamp": "2022-06-02T07:04:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4428050411571619,
+      "value": -0.0000314257
+    },
+    {
+      "timestamp": "2022-06-02T07:04:48Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000306363
+    },
+    {
+      "timestamp": "2022-06-02T07:04:49Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000307764
+    },
+    {
+      "timestamp": "2022-06-02T07:04:50Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000308581
+    },
+    {
+      "timestamp": "2022-06-02T07:04:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6276420852748007,
+      "value": -0.0000301977
+    },
+    {
+      "timestamp": "2022-06-02T07:04:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.453991682987087,
+      "value": -0.0000296867
+    },
+    {
+      "timestamp": "2022-06-02T07:04:53Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000299928
+    },
+    {
+      "timestamp": "2022-06-02T07:04:54Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000289162
+    },
+    {
+      "timestamp": "2022-06-02T07:04:55Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000289674
+    },
+    {
+      "timestamp": "2022-06-02T07:04:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.67299919268589,
+      "value": -0.000029443
+    },
+    {
+      "timestamp": "2022-06-02T07:04:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.736360506754001,
+      "value": -0.0000291703
+    },
+    {
+      "timestamp": "2022-06-02T07:04:58Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453848827237276,
+      "value": -0.0000288284
+    },
+    {
+      "timestamp": "2022-06-02T07:04:59Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6394970322564378,
+      "value": -0.0000277954
+    },
+    {
+      "timestamp": "2022-06-02T07:05:00Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000279625
+    },
+    {
+      "timestamp": "2022-06-02T07:05:00Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.35,
+      "value": 0.0833976
+    },
+    {
+      "timestamp": "2022-06-02T07:05:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4480655439878673,
+      "value": -0.0000280117
+    },
+    {
+      "timestamp": "2022-06-02T07:05:03Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000267138
+    },
+    {
+      "timestamp": "2022-06-02T07:05:03Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.41,
+      "value": 0.0833976
+    },
+    {
+      "timestamp": "2022-06-02T07:05:04Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000276163
+    },
+    {
+      "timestamp": "2022-06-02T07:05:05Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000265779
+    },
+    {
+      "timestamp": "2022-06-02T07:05:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4902020537137656,
+      "value": -0.0000259388
+    },
+    {
+      "timestamp": "2022-06-02T07:05:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4131366918632149,
+      "value": -0.0000259653
+    },
+    {
+      "timestamp": "2022-06-02T07:05:08Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000256126
+    },
+    {
+      "timestamp": "2022-06-02T07:05:09Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000242819
+    },
+    {
+      "timestamp": "2022-06-02T07:05:10Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000242285
+    },
+    {
+      "timestamp": "2022-06-02T07:05:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.597955707707802,
+      "value": -0.0000244249
+    },
+    {
+      "timestamp": "2022-06-02T07:05:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5910659218272901,
+      "value": -0.0000241642
+    },
+    {
+      "timestamp": "2022-06-02T07:05:13Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000236825
+    },
+    {
+      "timestamp": "2022-06-02T07:05:13Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.33,
+      "value": 0.0941887
+    },
+    {
+      "timestamp": "2022-06-02T07:05:14Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.000023606
+    },
+    {
+      "timestamp": "2022-06-02T07:05:14Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.31,
+      "value": 0.0995883
+    },
+    {
+      "timestamp": "2022-06-02T07:05:15Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000230993
+    },
+    {
+      "timestamp": "2022-06-02T07:05:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6267765277000288,
+      "value": -0.0000228575
+    },
+    {
+      "timestamp": "2022-06-02T07:05:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4404020670789716,
+      "value": -0.0000227894
+    },
+    {
+      "timestamp": "2022-06-02T07:05:18Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000218784
+    },
+    {
+      "timestamp": "2022-06-02T07:05:19Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.000021386
+    },
+    {
+      "timestamp": "2022-06-02T07:05:20Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6867476817185515,
+      "value": -0.0000459593
+    },
+    {
+      "timestamp": "2022-06-02T07:05:20Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000217303
+    },
+    {
+      "timestamp": "2022-06-02T07:05:20Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.34,
+      "value": 0.118511
+    },
+    {
+      "timestamp": "2022-06-02T07:05:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7839265796129518,
+      "value": -0.0000456718
+    },
+    {
+      "timestamp": "2022-06-02T07:05:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7980492690201387,
+      "value": -0.0000465051
+    },
+    {
+      "timestamp": "2022-06-02T07:05:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4141981660098326,
+      "value": -0.0000202668
+    },
+    {
+      "timestamp": "2022-06-02T07:05:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4558988476301755,
+      "value": -0.0000201609
+    },
+    {
+      "timestamp": "2022-06-02T07:05:23Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5417080219710304,
+      "value": -0.0000456726
+    },
+    {
+      "timestamp": "2022-06-02T07:05:23Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000199334
+    },
+    {
+      "timestamp": "2022-06-02T07:05:24Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5595201971203325,
+      "value": -0.0000452574
+    },
+    {
+      "timestamp": "2022-06-02T07:05:24Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000197244
+    },
+    {
+      "timestamp": "2022-06-02T07:05:24Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.3,
+      "value": 0.132053
+    },
+    {
+      "timestamp": "2022-06-02T07:05:25Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5139863026662624,
+      "value": -0.0000451157
+    },
+    {
+      "timestamp": "2022-06-02T07:05:25Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000192069
+    },
+    {
+      "timestamp": "2022-06-02T07:05:25Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.32,
+      "value": 0.126633
+    },
+    {
+      "timestamp": "2022-06-02T07:05:27Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6634312836530912,
+      "value": -0.0000446956
+    },
+    {
+      "timestamp": "2022-06-02T07:05:27Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7630492690201387,
+      "value": -0.0000444166
+    },
+    {
+      "timestamp": "2022-06-02T07:05:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5266058952685454,
+      "value": -0.0000184415
+    },
+    {
+      "timestamp": "2022-06-02T07:05:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6052714142185253,
+      "value": -0.0000180658
+    },
+    {
+      "timestamp": "2022-06-02T07:05:28Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4545143977860605,
+      "value": -0.0000440048
+    },
+    {
+      "timestamp": "2022-06-02T07:05:28Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000182703
+    },
+    {
+      "timestamp": "2022-06-02T07:05:28Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.33,
+      "value": 0.134764
+    },
+    {
+      "timestamp": "2022-06-02T07:05:29Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4845143977860606,
+      "value": -0.0000438622
+    },
+    {
+      "timestamp": "2022-06-02T07:05:29Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000175022
+    },
+    {
+      "timestamp": "2022-06-02T07:05:29Z",
+      "channel": "CADC0892",
+      "segment": 936,
+      "anomaly_score": 0.31,
+      "value": 0.134764
+    },
+    {
+      "timestamp": "2022-06-02T07:05:30Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4407840254656023,
+      "value": -0.0000431634
+    },
+    {
+      "timestamp": "2022-06-02T07:05:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000167145
+    },
+    {
+      "timestamp": "2022-06-02T07:05:32Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6736979122034552,
+      "value": -0.000043022
+    },
+    {
+      "timestamp": "2022-06-02T07:05:32Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7130492690201388,
+      "value": -0.0000423274
+    },
+    {
+      "timestamp": "2022-06-02T07:05:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6326715464039777,
+      "value": -0.000016202
+    },
+    {
+      "timestamp": "2022-06-02T07:05:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5152924670436776,
+      "value": -0.0000158428
+    },
+    {
+      "timestamp": "2022-06-02T07:05:33Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4390873586027845,
+      "value": -0.000041218
+    },
+    {
+      "timestamp": "2022-06-02T07:05:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000157459
+    },
+    {
+      "timestamp": "2022-06-02T07:05:34Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4276022946671995,
+      "value": -0.0000409335
+    },
+    {
+      "timestamp": "2022-06-02T07:05:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000146859
+    },
+    {
+      "timestamp": "2022-06-02T07:05:35Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.441535279458074,
+      "value": -0.0000403794
+    },
+    {
+      "timestamp": "2022-06-02T07:05:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000144757
+    },
+    {
+      "timestamp": "2022-06-02T07:05:37Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6511924102326102,
+      "value": -0.0000398243
+    },
+    {
+      "timestamp": "2022-06-02T07:05:37Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.8130492690201387,
+      "value": -0.0000389911
+    },
+    {
+      "timestamp": "2022-06-02T07:05:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6198138556408394,
+      "value": -0.0000142455
+    },
+    {
+      "timestamp": "2022-06-02T07:05:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5309247165939085,
+      "value": -0.0000141208
+    },
+    {
+      "timestamp": "2022-06-02T07:05:38Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4185254041100579,
+      "value": -0.0000378737
+    },
+    {
+      "timestamp": "2022-06-02T07:05:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.000013059
+    },
+    {
+      "timestamp": "2022-06-02T07:05:39Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4084076312921548,
+      "value": -0.0000360672
+    },
+    {
+      "timestamp": "2022-06-02T07:05:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000124399
+    },
+    {
+      "timestamp": "2022-06-02T07:05:40Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4157356896183609,
+      "value": -0.0000355094
+    },
+    {
+      "timestamp": "2022-06-02T07:05:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000120418
+    },
+    {
+      "timestamp": "2022-06-02T07:05:42Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7511924102326103,
+      "value": -0.0000350975
+    },
+    {
+      "timestamp": "2022-06-02T07:05:42Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7730492690201387,
+      "value": -0.0000338444
+    },
+    {
+      "timestamp": "2022-06-02T07:05:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5319561851328661,
+      "value": -0.0000123592
+    },
+    {
+      "timestamp": "2022-06-02T07:05:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5659214311513107,
+      "value": -0.0000117047
+    },
+    {
+      "timestamp": "2022-06-02T07:05:43Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4063585654665375,
+      "value": -0.0000328671
+    },
+    {
+      "timestamp": "2022-06-02T07:05:43Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000108996
+    },
+    {
+      "timestamp": "2022-06-02T07:05:44Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3996712589649894,
+      "value": -0.0000320311
+    },
+    {
+      "timestamp": "2022-06-02T07:05:44Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000102586
+    },
+    {
+      "timestamp": "2022-06-02T07:05:45Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.39432840608344,
+      "value": -0.0000306426
+    },
+    {
+      "timestamp": "2022-06-02T07:05:45Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000100165
+    },
+    {
+      "timestamp": "2022-06-02T07:05:47Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7511924102326103,
+      "value": -0.000030084
+    },
+    {
+      "timestamp": "2022-06-02T07:05:47Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7466856326565025,
+      "value": -0.0000281315
+    },
+    {
+      "timestamp": "2022-06-02T07:05:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4788856290805758,
+      "value": -0.00000960334
+    },
+    {
+      "timestamp": "2022-06-02T07:05:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5419865592530667,
+      "value": -0.00000838168
+    },
+    {
+      "timestamp": "2022-06-02T07:05:48Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3882778635536077,
+      "value": -0.0000260558
+    },
+    {
+      "timestamp": "2022-06-02T07:05:48Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000088481
+    },
+    {
+      "timestamp": "2022-06-02T07:05:49Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000256336
+    },
+    {
+      "timestamp": "2022-06-02T07:05:49Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000792482
+    },
+    {
+      "timestamp": "2022-06-02T07:05:50Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000245192
+    },
+    {
+      "timestamp": "2022-06-02T07:05:50Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000738426
+    },
+    {
+      "timestamp": "2022-06-02T07:05:52Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6511924102326102,
+      "value": -0.0000220188
+    },
+    {
+      "timestamp": "2022-06-02T07:05:52Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.8130492690201387,
+      "value": -0.0000214591
+    },
+    {
+      "timestamp": "2022-06-02T07:05:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5906169154276742,
+      "value": -0.00000711291
+    },
+    {
+      "timestamp": "2022-06-02T07:05:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6214358373864332,
+      "value": -0.00000656193
+    },
+    {
+      "timestamp": "2022-06-02T07:05:53Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3882778635536077,
+      "value": -0.0000195116
+    },
+    {
+      "timestamp": "2022-06-02T07:05:53Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000578387
+    },
+    {
+      "timestamp": "2022-06-02T07:05:54Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000185415
+    },
+    {
+      "timestamp": "2022-06-02T07:05:54Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000059287
+    },
+    {
+      "timestamp": "2022-06-02T07:05:55Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000171427
+    },
+    {
+      "timestamp": "2022-06-02T07:05:55Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000444597
+    },
+    {
+      "timestamp": "2022-06-02T07:05:57Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6928445841456538,
+      "value": -0.0000160338
+    },
+    {
+      "timestamp": "2022-06-02T07:05:57Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6330492690201388,
+      "value": -0.0000147777
+    },
+    {
+      "timestamp": "2022-06-02T07:05:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7013420099469265,
+      "value": -0.00000458964
+    },
+    {
+      "timestamp": "2022-06-02T07:05:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.718496388329129,
+      "value": -0.00000376223
+    },
+    {
+      "timestamp": "2022-06-02T07:05:58Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000135251
+    },
+    {
+      "timestamp": "2022-06-02T07:05:58Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000334835
+    },
+    {
+      "timestamp": "2022-06-02T07:05:59Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.000012269
+    },
+    {
+      "timestamp": "2022-06-02T07:05:59Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000240313
+    },
+    {
+      "timestamp": "2022-06-02T07:06:00Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3982778635536078,
+      "value": -0.0000101882
+    },
+    {
+      "timestamp": "2022-06-02T07:06:00Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000242595
+    },
+    {
+      "timestamp": "2022-06-02T07:06:02Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6928445841456538,
+      "value": -0.00000893536
+    },
+    {
+      "timestamp": "2022-06-02T07:06:02Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6830492690201387,
+      "value": -0.00000754594
+    },
+    {
+      "timestamp": "2022-06-02T07:06:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6124743212077386,
+      "value": -0.00000200707
+    },
+    {
+      "timestamp": "2022-06-02T07:06:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5253574413296985,
+      "value": -0.00000186272
+    },
+    {
+      "timestamp": "2022-06-02T07:06:03Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.00000629254
+    },
+    {
+      "timestamp": "2022-06-02T07:06:03Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000143382
+    },
+    {
+      "timestamp": "2022-06-02T07:06:04Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000053179
+    },
+    {
+      "timestamp": "2022-06-02T07:06:04Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000102726
+    },
+    {
+      "timestamp": "2022-06-02T07:06:05Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3924445302202744,
+      "value": -0.0000036482
+    },
+    {
+      "timestamp": "2022-06-02T07:06:05Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -5.99909e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:06:07Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6045257435659436,
+      "value": -0.00000211391
+    },
+    {
+      "timestamp": "2022-06-02T07:06:07Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7210653840027171,
+      "value": -0.0000012822
+    },
+    {
+      "timestamp": "2022-06-02T07:06:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6110293332109924,
+      "value": 2.39829e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:06:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5532771941764646,
+      "value": 1.03876e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:06:08Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3924445302202744,
+      "value": 3.97486e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:06:08Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000164903
+    },
+    {
+      "timestamp": "2022-06-02T07:06:09Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.00000108752
+    },
+    {
+      "timestamp": "2022-06-02T07:06:09Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000122621
+    },
+    {
+      "timestamp": "2022-06-02T07:06:10Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3982778635536078,
+      "value": 0.00000345609
+    },
+    {
+      "timestamp": "2022-06-02T07:06:10Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000022107
+    },
+    {
+      "timestamp": "2022-06-02T07:06:12Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7711924102326102,
+      "value": 0.00000484629
+    },
+    {
+      "timestamp": "2022-06-02T07:06:12Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6530492690201387,
+      "value": 0.00000623996
+    },
+    {
+      "timestamp": "2022-06-02T07:06:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5975956621306195,
+      "value": 0.00000237007
+    },
+    {
+      "timestamp": "2022-06-02T07:06:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7766125794448716,
+      "value": 0.00000294299
+    },
+    {
+      "timestamp": "2022-06-02T07:06:13Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.00000762964
+    },
+    {
+      "timestamp": "2022-06-02T07:06:13Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000309233
+    },
+    {
+      "timestamp": "2022-06-02T07:06:14Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3883590057910805,
+      "value": 0.00000916969
+    },
+    {
+      "timestamp": "2022-06-02T07:06:14Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000462131
+    },
+    {
+      "timestamp": "2022-06-02T07:06:15Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000102771
+    },
+    {
+      "timestamp": "2022-06-02T07:06:15Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000421698
+    },
+    {
+      "timestamp": "2022-06-02T07:06:17Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7145257435659437,
+      "value": 0.0000116751
+    },
+    {
+      "timestamp": "2022-06-02T07:06:17Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.8330492690201388,
+      "value": 0.0000127822
+    },
+    {
+      "timestamp": "2022-06-02T07:06:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3815905404140395,
+      "value": 0.00000510566
+    },
+    {
+      "timestamp": "2022-06-02T07:06:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4610914644903032,
+      "value": 0.00000469632
+    },
+    {
+      "timestamp": "2022-06-02T07:06:18Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000141802
+    },
+    {
+      "timestamp": "2022-06-02T07:06:18Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000058156
+    },
+    {
+      "timestamp": "2022-06-02T07:06:19Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4043436409633266,
+      "value": 0.0000162696
+    },
+    {
+      "timestamp": "2022-06-02T07:06:19Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000653713
+    },
+    {
+      "timestamp": "2022-06-02T07:06:20Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000172367
+    },
+    {
+      "timestamp": "2022-06-02T07:06:20Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000598878
+    },
+    {
+      "timestamp": "2022-06-02T07:06:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6011924102326105,
+      "value": 0.000018778
+    },
+    {
+      "timestamp": "2022-06-02T07:06:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7830492690201387,
+      "value": 0.0000203084
+    },
+    {
+      "timestamp": "2022-06-02T07:06:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5102368817822449,
+      "value": 0.00000754281
+    },
+    {
+      "timestamp": "2022-06-02T07:06:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6740138292949136,
+      "value": 0.00000772838
+    },
+    {
+      "timestamp": "2022-06-02T07:06:23Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000211464
+    },
+    {
+      "timestamp": "2022-06-02T07:06:23Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000829168
+    },
+    {
+      "timestamp": "2022-06-02T07:06:24Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000221245
+    },
+    {
+      "timestamp": "2022-06-02T07:06:24Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000888119
+    },
+    {
+      "timestamp": "2022-06-02T07:06:25Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000232382
+    },
+    {
+      "timestamp": "2022-06-02T07:06:25Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000091761
+    },
+    {
+      "timestamp": "2022-06-02T07:06:27Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5711924102326105,
+      "value": 0.0000247723
+    },
+    {
+      "timestamp": "2022-06-02T07:06:27Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5614833492702691,
+      "value": 0.0000254735
+    },
+    {
+      "timestamp": "2022-06-02T07:06:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5647417947643251,
+      "value": 0.00000978023
+    },
+    {
+      "timestamp": "2022-06-02T07:06:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.793513820013985,
+      "value": 0.0000103825
+    },
+    {
+      "timestamp": "2022-06-02T07:06:28Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3882778635536077,
+      "value": 0.0000278379
+    },
+    {
+      "timestamp": "2022-06-02T07:06:28Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000107078
+    },
+    {
+      "timestamp": "2022-06-02T07:06:29Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000281226
+    },
+    {
+      "timestamp": "2022-06-02T07:06:29Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000114244
+    },
+    {
+      "timestamp": "2022-06-02T07:06:30Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000295125
+    },
+    {
+      "timestamp": "2022-06-02T07:06:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000114609
+    },
+    {
+      "timestamp": "2022-06-02T07:06:32Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6111924102326105,
+      "value": 0.0000297978
+    },
+    {
+      "timestamp": "2022-06-02T07:06:32Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6566856326565025,
+      "value": 0.0000316107
+    },
+    {
+      "timestamp": "2022-06-02T07:06:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.74224962488863,
+      "value": 0.0000121875
+    },
+    {
+      "timestamp": "2022-06-02T07:06:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7698477222167157,
+      "value": 0.0000129318
+    },
+    {
+      "timestamp": "2022-06-02T07:06:33Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000327245
+    },
+    {
+      "timestamp": "2022-06-02T07:06:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000131139
+    },
+    {
+      "timestamp": "2022-06-02T07:06:34Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000325958
+    },
+    {
+      "timestamp": "2022-06-02T07:06:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000141178
+    },
+    {
+      "timestamp": "2022-06-02T07:06:35Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3882778635536077,
+      "value": 0.0000344076
+    },
+    {
+      "timestamp": "2022-06-02T07:06:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000147242
+    },
+    {
+      "timestamp": "2022-06-02T07:06:36Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 1,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:36Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 1,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:37Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9817918525335638,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 1,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:38Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9817918525335638,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 1,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:39Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9817918525335638,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 1,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:40Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9817918525335638,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 1,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:41Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9817918525335638,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:41Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 1,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:42Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9817918525335638,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.69899749246051,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:43Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:43Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:44Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:44Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:45Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:45Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:46Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:46Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:47Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:48Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:48Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:49Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:49Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:50Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:50Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:51Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:51Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:52Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:53Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:53Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:54Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:54Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:55Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:55Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:56Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:56Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:57Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:58Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:58Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:59Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:06:59Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:00Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:00Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:01Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:01Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:02Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:03Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:03Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-06-02T07:07:04Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.99,
+      "value": 0.0000408047
+    },
+    {
+      "timestamp": "2022-06-02T07:07:04Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 1,
+      "value": 0.0000286665
+    },
+    {
+      "timestamp": "2022-06-02T07:07:05Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9818887280118732,
+      "value": 0.0000405557
+    },
+    {
+      "timestamp": "2022-06-02T07:07:05Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.9895196868761186,
+      "value": 0.0000289462
+    },
+    {
+      "timestamp": "2022-06-02T07:07:07Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.99,
+      "value": 0.0000395925
+    },
+    {
+      "timestamp": "2022-06-02T07:07:07Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.95,
+      "value": 0.0000390434
+    },
+    {
+      "timestamp": "2022-06-02T07:07:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.9885455662284104,
+      "value": 0.0000295697
+    },
+    {
+      "timestamp": "2022-06-02T07:07:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.9962893081761008,
+      "value": 0.0000302643
+    },
+    {
+      "timestamp": "2022-06-02T07:07:08Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9818887280118732,
+      "value": 0.0000386251
+    },
+    {
+      "timestamp": "2022-06-02T07:07:08Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.9895196868761186,
+      "value": 0.0000297646
+    },
+    {
+      "timestamp": "2022-06-02T07:07:09Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9818887280118732,
+      "value": 0.0000384972
+    },
+    {
+      "timestamp": "2022-06-02T07:07:09Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.9895196868761186,
+      "value": 0.0000307835
+    },
+    {
+      "timestamp": "2022-06-02T07:07:10Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.9818887280118732,
+      "value": 0.000038224
+    },
+    {
+      "timestamp": "2022-06-02T07:07:10Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.9895196868761186,
+      "value": 0.0000312148
+    },
+    {
+      "timestamp": "2022-06-02T07:07:12Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6611924102326102,
+      "value": 0.0000366984
+    },
+    {
+      "timestamp": "2022-06-02T07:07:12Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.8430492690201388,
+      "value": 0.0000362866
+    },
+    {
+      "timestamp": "2022-06-02T07:07:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7935013711986456,
+      "value": 0.0000312372
+    },
+    {
+      "timestamp": "2022-06-02T07:07:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5463707170958888,
+      "value": 0.0000314417
+    },
+    {
+      "timestamp": "2022-06-02T07:07:13Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000362909
+    },
+    {
+      "timestamp": "2022-06-02T07:07:13Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6380195082174934,
+      "value": 0.0000318703
+    },
+    {
+      "timestamp": "2022-06-02T07:07:14Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000349128
+    },
+    {
+      "timestamp": "2022-06-02T07:07:14Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6380195082174934,
+      "value": 0.0000329866
+    },
+    {
+      "timestamp": "2022-06-02T07:07:15Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000343566
+    },
+    {
+      "timestamp": "2022-06-02T07:07:15Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6480195082174934,
+      "value": 0.0000326186
+    },
+    {
+      "timestamp": "2022-06-02T07:07:17Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5673349182912566,
+      "value": 0.0000324177
+    },
+    {
+      "timestamp": "2022-06-02T07:07:17Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6530492690201387,
+      "value": 0.0000320083
+    },
+    {
+      "timestamp": "2022-06-02T07:07:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6353677917600012,
+      "value": 0.0000330461
+    },
+    {
+      "timestamp": "2022-06-02T07:07:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4304431464464047,
+      "value": 0.0000336441
+    },
+    {
+      "timestamp": "2022-06-02T07:07:18Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000310404
+    },
+    {
+      "timestamp": "2022-06-02T07:07:18Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.000033829
+    },
+    {
+      "timestamp": "2022-06-02T07:07:19Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000303446
+    },
+    {
+      "timestamp": "2022-06-02T07:07:19Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000335626
+    },
+    {
+      "timestamp": "2022-06-02T07:07:20Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000295179
+    },
+    {
+      "timestamp": "2022-06-02T07:07:20Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000341422
+    },
+    {
+      "timestamp": "2022-06-02T07:07:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5886924102326103,
+      "value": 0.0000284158
+    },
+    {
+      "timestamp": "2022-06-02T07:07:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.8363826023534722,
+      "value": 0.0000270382
+    },
+    {
+      "timestamp": "2022-06-02T07:07:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6417938255605539,
+      "value": 0.0000349951
+    },
+    {
+      "timestamp": "2022-06-02T07:07:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3466882448907459,
+      "value": 0.0000360037
+    },
+    {
+      "timestamp": "2022-06-02T07:07:23Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000257849
+    },
+    {
+      "timestamp": "2022-06-02T07:07:23Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.000035462
+    },
+    {
+      "timestamp": "2022-06-02T07:07:24Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000255123
+    },
+    {
+      "timestamp": "2022-06-02T07:07:24Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000360211
+    },
+    {
+      "timestamp": "2022-06-02T07:07:25Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000241282
+    },
+    {
+      "timestamp": "2022-06-02T07:07:25Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6504574349034999,
+      "value": 0.0000363253
+    },
+    {
+      "timestamp": "2022-06-02T07:07:27Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5585751852800733,
+      "value": 0.0000231633
+    },
+    {
+      "timestamp": "2022-06-02T07:07:27Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6863826023534721,
+      "value": 0.0000217795
+    },
+    {
+      "timestamp": "2022-06-02T07:07:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.8547402075798591,
+      "value": 0.0000370316
+    },
+    {
+      "timestamp": "2022-06-02T07:07:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4537393919970233,
+      "value": 0.0000374587
+    },
+    {
+      "timestamp": "2022-06-02T07:07:28Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000206725
+    },
+    {
+      "timestamp": "2022-06-02T07:07:28Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6466498657268712,
+      "value": 0.0000377552
+    },
+    {
+      "timestamp": "2022-06-02T07:07:29Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000198426
+    },
+    {
+      "timestamp": "2022-06-02T07:07:29Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6245823601348657,
+      "value": 0.0000379262
+    },
+    {
+      "timestamp": "2022-06-02T07:07:30Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.4065156975398181,
+      "value": 0.0000179014
+    },
+    {
+      "timestamp": "2022-06-02T07:07:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6568658222712408,
+      "value": 0.0000383086
+    },
+    {
+      "timestamp": "2022-06-02T07:07:32Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6555560136073723,
+      "value": 0.0000173495
+    },
+    {
+      "timestamp": "2022-06-02T07:07:32Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6730492690201387,
+      "value": 0.0000155481
+    },
+    {
+      "timestamp": "2022-06-02T07:07:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4767108137081342,
+      "value": 0.0000386048
+    },
+    {
+      "timestamp": "2022-06-02T07:07:33Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000155532
+    },
+    {
+      "timestamp": "2022-06-02T07:07:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.651417691836309,
+      "value": 0.000039452
+    },
+    {
+      "timestamp": "2022-06-02T07:07:34Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000137492
+    },
+    {
+      "timestamp": "2022-06-02T07:07:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6456806110596338,
+      "value": 0.0000395749
+    },
+    {
+      "timestamp": "2022-06-02T07:07:35Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.0000130574
+    },
+    {
+      "timestamp": "2022-06-02T07:07:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6222203334705744,
+      "value": 0.000039732
+    },
+    {
+      "timestamp": "2022-06-02T07:07:37Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6211924102326105,
+      "value": 0.0000118048
+    },
+    {
+      "timestamp": "2022-06-02T07:07:37Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.8785090904487103,
+      "value": 0.0000108312
+    },
+    {
+      "timestamp": "2022-06-02T07:07:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4742281153989367,
+      "value": 0.0000393181
+    },
+    {
+      "timestamp": "2022-06-02T07:07:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.8802278514758873,
+      "value": 0.0000391622
+    },
+    {
+      "timestamp": "2022-06-02T07:07:38Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3965156975398182,
+      "value": 0.00000889552
+    },
+    {
+      "timestamp": "2022-06-02T07:07:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6867671104368567,
+      "value": 0.000040116
+    },
+    {
+      "timestamp": "2022-06-02T07:07:39Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.00000848628
+    },
+    {
+      "timestamp": "2022-06-02T07:07:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6206195971015837,
+      "value": 0.0000408319
+    },
+    {
+      "timestamp": "2022-06-02T07:07:40Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.00000667527
+    },
+    {
+      "timestamp": "2022-06-02T07:07:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6678894045650026,
+      "value": 0.0000402405
+    },
+    {
+      "timestamp": "2022-06-02T07:07:42Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6811924102326102,
+      "value": 0.00000529312
+    },
+    {
+      "timestamp": "2022-06-02T07:07:42Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7930492690201387,
+      "value": 0.00000403758
+    },
+    {
+      "timestamp": "2022-06-02T07:07:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7007667383467324,
+      "value": 0.000041046
+    },
+    {
+      "timestamp": "2022-06-02T07:07:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3183517657781455,
+      "value": 0.0000402286
+    },
+    {
+      "timestamp": "2022-06-02T07:07:43Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.00000279579
+    },
+    {
+      "timestamp": "2022-06-02T07:07:43Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.59691249104752,
+      "value": 0.000041296
+    },
+    {
+      "timestamp": "2022-06-02T07:07:44Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 0.00000168752
+    },
+    {
+      "timestamp": "2022-06-02T07:07:44Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6671274416188422,
+      "value": 0.0000415675
+    },
+    {
+      "timestamp": "2022-06-02T07:07:45Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": 2.97575e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:07:45Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.646741585234716,
+      "value": 0.0000414132
+    },
+    {
+      "timestamp": "2022-06-02T07:07:47Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5756103515481548,
+      "value": 1.55898e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:07:47Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.543049269020139,
+      "value": -0.00000165072
+    },
+    {
+      "timestamp": "2022-06-02T07:07:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6405987006053201,
+      "value": 0.0000411263
+    },
+    {
+      "timestamp": "2022-06-02T07:07:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.9101571133717284,
+      "value": 0.0000408507
+    },
+    {
+      "timestamp": "2022-06-02T07:07:48Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.00000262081
+    },
+    {
+      "timestamp": "2022-06-02T07:07:48Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6883947131813484,
+      "value": 0.0000412261
+    },
+    {
+      "timestamp": "2022-06-02T07:07:49Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.00000442439
+    },
+    {
+      "timestamp": "2022-06-02T07:07:49Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6783947131813484,
+      "value": 0.0000414718
+    },
+    {
+      "timestamp": "2022-06-02T07:07:50Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.00000525228
+    },
+    {
+      "timestamp": "2022-06-02T07:07:50Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6562788106258887,
+      "value": 0.0000421441
+    },
+    {
+      "timestamp": "2022-06-02T07:07:52Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7511924102326103,
+      "value": -0.00000581334
+    },
+    {
+      "timestamp": "2022-06-02T07:07:52Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.589191777078785,
+      "value": -0.00000775269
+    },
+    {
+      "timestamp": "2022-06-02T07:07:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6460320339386533,
+      "value": 0.0000415681
+    },
+    {
+      "timestamp": "2022-06-02T07:07:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7335103281460102,
+      "value": 0.0000421034
+    },
+    {
+      "timestamp": "2022-06-02T07:07:53Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.00000887057
+    },
+    {
+      "timestamp": "2022-06-02T07:07:53Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6930602973725081,
+      "value": 0.0000413799
+    },
+    {
+      "timestamp": "2022-06-02T07:07:54Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.000010117
+    },
+    {
+      "timestamp": "2022-06-02T07:07:54Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6739527207952355,
+      "value": 0.0000418959
+    },
+    {
+      "timestamp": "2022-06-02T07:07:55Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000106812
+    },
+    {
+      "timestamp": "2022-06-02T07:07:55Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6577977021845166,
+      "value": 0.0000409113
+    },
+    {
+      "timestamp": "2022-06-02T07:07:57Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5645016574749822,
+      "value": -0.0000116453
+    },
+    {
+      "timestamp": "2022-06-02T07:07:57Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7371261920970619,
+      "value": -0.0000122118
+    },
+    {
+      "timestamp": "2022-06-02T07:07:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5214090553461275,
+      "value": 0.000041981
+    },
+    {
+      "timestamp": "2022-06-02T07:07:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.569017311471587,
+      "value": 0.0000407207
+    },
+    {
+      "timestamp": "2022-06-02T07:07:58Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000133164
+    },
+    {
+      "timestamp": "2022-06-02T07:07:58Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6678387764292314,
+      "value": 0.0000416414
+    },
+    {
+      "timestamp": "2022-06-02T07:07:59Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3894104343819233,
+      "value": -0.0000153965
+    },
+    {
+      "timestamp": "2022-06-02T07:07:59Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6739527207952355,
+      "value": 0.0000421404
+    },
+    {
+      "timestamp": "2022-06-02T07:08:00Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000152583
+    },
+    {
+      "timestamp": "2022-06-02T07:08:00Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6739527207952355,
+      "value": 0.0000422443
+    },
+    {
+      "timestamp": "2022-06-02T07:08:02Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6611924102326102,
+      "value": -0.0000163748
+    },
+    {
+      "timestamp": "2022-06-02T07:08:02Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6730492690201387,
+      "value": -0.0000172082
+    },
+    {
+      "timestamp": "2022-06-02T07:08:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.671746319652939,
+      "value": 0.0000416637
+    },
+    {
+      "timestamp": "2022-06-02T07:08:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.464358862944545,
+      "value": 0.0000416518
+    },
+    {
+      "timestamp": "2022-06-02T07:08:03Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000181818
+    },
+    {
+      "timestamp": "2022-06-02T07:08:03Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6755511112856137,
+      "value": 0.0000417265
+    },
+    {
+      "timestamp": "2022-06-02T07:08:04Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000190234
+    },
+    {
+      "timestamp": "2022-06-02T07:08:04Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6577977021845166,
+      "value": 0.0000408624
+    },
+    {
+      "timestamp": "2022-06-02T07:08:05Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000192982
+    },
+    {
+      "timestamp": "2022-06-02T07:08:05Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6978387764292314,
+      "value": 0.0000416121
+    },
+    {
+      "timestamp": "2022-06-02T07:08:07Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7075628237996259,
+      "value": -0.0000205501
+    },
+    {
+      "timestamp": "2022-06-02T07:08:07Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6642179080733933,
+      "value": -0.0000208343
+    },
+    {
+      "timestamp": "2022-06-02T07:08:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5656322845652199,
+      "value": 0.000041326
+    },
+    {
+      "timestamp": "2022-06-02T07:08:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5797803372067171,
+      "value": 0.0000407372
+    },
+    {
+      "timestamp": "2022-06-02T07:08:08Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000218113
+    },
+    {
+      "timestamp": "2022-06-02T07:08:08Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6432327153597707,
+      "value": 0.0000402856
+    },
+    {
+      "timestamp": "2022-06-02T07:08:09Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000229191
+    },
+    {
+      "timestamp": "2022-06-02T07:08:09Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.687733463307275,
+      "value": 0.0000407977
+    },
+    {
+      "timestamp": "2022-06-02T07:08:10Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000230594
+    },
+    {
+      "timestamp": "2022-06-02T07:08:10Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.687733463307275,
+      "value": 0.0000408843
+    },
+    {
+      "timestamp": "2022-06-02T07:08:12Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.5946502024404026,
+      "value": -0.0000241743
+    },
+    {
+      "timestamp": "2022-06-02T07:08:12Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6530492690201387,
+      "value": -0.0000251564
+    },
+    {
+      "timestamp": "2022-06-02T07:08:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4679537131366483,
+      "value": 0.0000405643
+    },
+    {
+      "timestamp": "2022-06-02T07:08:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5583517657781456,
+      "value": 0.0000395513
+    },
+    {
+      "timestamp": "2022-06-02T07:08:13Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000247421
+    },
+    {
+      "timestamp": "2022-06-02T07:08:13Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6719319084039915,
+      "value": 0.0000396274
+    },
+    {
+      "timestamp": "2022-06-02T07:08:14Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000254377
+    },
+    {
+      "timestamp": "2022-06-02T07:08:14Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6619319084039915,
+      "value": 0.0000395966
+    },
+    {
+      "timestamp": "2022-06-02T07:08:15Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.000026829
+    },
+    {
+      "timestamp": "2022-06-02T07:08:15Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6793689701548647,
+      "value": 0.0000394172
+    },
+    {
+      "timestamp": "2022-06-02T07:08:17Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6911924102326102,
+      "value": -0.000026553
+    },
+    {
+      "timestamp": "2022-06-02T07:08:17Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6488209371386057,
+      "value": -0.0000262805
+    },
+    {
+      "timestamp": "2022-06-02T07:08:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4088500716800656,
+      "value": 0.0000395023
+    },
+    {
+      "timestamp": "2022-06-02T07:08:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7565335839599637,
+      "value": 0.000039056
+    },
+    {
+      "timestamp": "2022-06-02T07:08:18Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000273914
+    },
+    {
+      "timestamp": "2022-06-02T07:08:18Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6645351369886976,
+      "value": 0.0000392774
+    },
+    {
+      "timestamp": "2022-06-02T07:08:19Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000276755
+    },
+    {
+      "timestamp": "2022-06-02T07:08:19Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6533496029532847,
+      "value": 0.0000386886
+    },
+    {
+      "timestamp": "2022-06-02T07:08:20Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000283736
+    },
+    {
+      "timestamp": "2022-06-02T07:08:20Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6623050221144042,
+      "value": 0.0000384949
+    },
+    {
+      "timestamp": "2022-06-02T07:08:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.6932439818493994,
+      "value": -0.0000282412
+    },
+    {
+      "timestamp": "2022-06-02T07:08:22Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.7577537368969868,
+      "value": -0.00002783
+    },
+    {
+      "timestamp": "2022-06-02T07:08:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.8642303602317181,
+      "value": 0.0000379096
+    },
+    {
+      "timestamp": "2022-06-02T07:08:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7464182983171815,
+      "value": 0.0000375772
+    },
+    {
+      "timestamp": "2022-06-02T07:08:23Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.0000276939
+    },
+    {
+      "timestamp": "2022-06-02T07:08:23Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6320796353560262,
+      "value": 0.0000374105
+    },
+    {
+      "timestamp": "2022-06-02T07:08:24Z",
+      "channel": "CADC0872",
+      "segment": 129,
+      "anomaly_score": 0.3922932283813618,
+      "value": -0.000028665
+    },
+    {
+      "timestamp": "2022-06-02T07:08:24Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6620796353560263,
+      "value": 0.0000377658
+    },
+    {
+      "timestamp": "2022-06-02T07:08:25Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6187999992140777,
+      "value": 0.0000364832
+    },
+    {
+      "timestamp": "2022-06-02T07:08:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.7915369666074781,
+      "value": 0.0000367103
+    },
+    {
+      "timestamp": "2022-06-02T07:08:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4844086696990403,
+      "value": 0.0000371161
+    },
+    {
+      "timestamp": "2022-06-02T07:08:28Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6646700669457124,
+      "value": 0.0000359293
+    },
+    {
+      "timestamp": "2022-06-02T07:08:29Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6383920907513989,
+      "value": 0.0000361688
+    },
+    {
+      "timestamp": "2022-06-02T07:08:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6453054222692407,
+      "value": 0.0000364033
+    },
+    {
+      "timestamp": "2022-06-02T07:08:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5236194428413736,
+      "value": 0.0000360951
+    },
+    {
+      "timestamp": "2022-06-02T07:08:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6442063417443129,
+      "value": 0.0000353276
+    },
+    {
+      "timestamp": "2022-06-02T07:08:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000343461
+    },
+    {
+      "timestamp": "2022-06-02T07:08:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000342837
+    },
+    {
+      "timestamp": "2022-06-02T07:08:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3291364749773928,
+      "value": 0.0000347973
+    },
+    {
+      "timestamp": "2022-06-02T07:08:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000334714
+    },
+    {
+      "timestamp": "2022-06-02T07:08:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000338456
+    },
+    {
+      "timestamp": "2022-06-02T07:08:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000328553
+    },
+    {
+      "timestamp": "2022-06-02T07:08:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.453021271831299,
+      "value": 0.0000331171
+    },
+    {
+      "timestamp": "2022-06-02T07:08:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5835214049214295,
+      "value": 0.0000326588
+    },
+    {
+      "timestamp": "2022-06-02T07:08:43Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.00003348
+    },
+    {
+      "timestamp": "2022-06-02T07:08:44Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.0000326097
+    },
+    {
+      "timestamp": "2022-06-02T07:08:45Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6433766510746364,
+      "value": 0.000031751
+    },
+    {
+      "timestamp": "2022-06-02T07:08:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3600889993925939,
+      "value": 0.0000315974
+    },
+    {
+      "timestamp": "2022-06-02T07:08:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.526289735915428,
+      "value": 0.0000321356
+    },
+    {
+      "timestamp": "2022-06-02T07:08:48Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000312653
+    },
+    {
+      "timestamp": "2022-06-02T07:08:49Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000312456
+    },
+    {
+      "timestamp": "2022-06-02T07:08:50Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000311131
+    },
+    {
+      "timestamp": "2022-06-02T07:08:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.360560462694222,
+      "value": 0.0000306826
+    },
+    {
+      "timestamp": "2022-06-02T07:08:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3950023045408137,
+      "value": 0.0000303776
+    },
+    {
+      "timestamp": "2022-06-02T07:08:53Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000300937
+    },
+    {
+      "timestamp": "2022-06-02T07:08:54Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000306181
+    },
+    {
+      "timestamp": "2022-06-02T07:08:55Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000295091
+    },
+    {
+      "timestamp": "2022-06-02T07:08:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3055787795012686,
+      "value": 0.0000296434
+    },
+    {
+      "timestamp": "2022-06-02T07:08:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5248678510514455,
+      "value": 0.0000286626
+    },
+    {
+      "timestamp": "2022-06-02T07:08:58Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000285267
+    },
+    {
+      "timestamp": "2022-06-02T07:08:59Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000283811
+    },
+    {
+      "timestamp": "2022-06-02T07:09:00Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000279505
+    },
+    {
+      "timestamp": "2022-06-02T07:09:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4342952124981601,
+      "value": 0.0000272697
+    },
+    {
+      "timestamp": "2022-06-02T07:09:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5849089081001658,
+      "value": 0.0000278299
+    },
+    {
+      "timestamp": "2022-06-02T07:09:03Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000279754
+    },
+    {
+      "timestamp": "2022-06-02T07:09:04Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000270139
+    },
+    {
+      "timestamp": "2022-06-02T07:09:05Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000259261
+    },
+    {
+      "timestamp": "2022-06-02T07:09:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5246017559045628,
+      "value": 0.0000259149
+    },
+    {
+      "timestamp": "2022-06-02T07:09:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5532515401135463,
+      "value": 0.0000256577
+    },
+    {
+      "timestamp": "2022-06-02T07:09:08Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000249699
+    },
+    {
+      "timestamp": "2022-06-02T07:09:09Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000249791
+    },
+    {
+      "timestamp": "2022-06-02T07:09:10Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000238763
+    },
+    {
+      "timestamp": "2022-06-02T07:09:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5247090798725775,
+      "value": 0.0000232063
+    },
+    {
+      "timestamp": "2022-06-02T07:09:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6960617816921376,
+      "value": 0.0000237607
+    },
+    {
+      "timestamp": "2022-06-02T07:09:13Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000229679
+    },
+    {
+      "timestamp": "2022-06-02T07:09:14Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000231323
+    },
+    {
+      "timestamp": "2022-06-02T07:09:15Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000230109
+    },
+    {
+      "timestamp": "2022-06-02T07:09:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5810152898351394,
+      "value": 0.0000217691
+    },
+    {
+      "timestamp": "2022-06-02T07:09:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.577504457512749,
+      "value": 0.0000214025
+    },
+    {
+      "timestamp": "2022-06-02T07:09:18Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000212827
+    },
+    {
+      "timestamp": "2022-06-02T07:09:19Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000204984
+    },
+    {
+      "timestamp": "2022-06-02T07:09:20Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000206347
+    },
+    {
+      "timestamp": "2022-06-02T07:09:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5212294778969734,
+      "value": 0.0000199831
+    },
+    {
+      "timestamp": "2022-06-02T07:09:23Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000187987
+    },
+    {
+      "timestamp": "2022-06-02T07:09:24Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000185696
+    },
+    {
+      "timestamp": "2022-06-02T07:09:25Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.000017764
+    },
+    {
+      "timestamp": "2022-06-02T07:09:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.551616543113684,
+      "value": 0.0000178422
+    },
+    {
+      "timestamp": "2022-06-02T07:09:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5856293052898692,
+      "value": 0.0000171387
+    },
+    {
+      "timestamp": "2022-06-02T07:09:28Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000166266
+    },
+    {
+      "timestamp": "2022-06-02T07:09:29Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000163717
+    },
+    {
+      "timestamp": "2022-06-02T07:09:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000162843
+    },
+    {
+      "timestamp": "2022-06-02T07:09:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6268532138926749,
+      "value": 0.0000156185
+    },
+    {
+      "timestamp": "2022-06-02T07:09:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6599083635566558,
+      "value": 0.0000151241
+    },
+    {
+      "timestamp": "2022-06-02T07:09:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000144865
+    },
+    {
+      "timestamp": "2022-06-02T07:09:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000139655
+    },
+    {
+      "timestamp": "2022-06-02T07:09:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000137094
+    },
+    {
+      "timestamp": "2022-06-02T07:09:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5051883213356425,
+      "value": 0.0000128174
+    },
+    {
+      "timestamp": "2022-06-02T07:09:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5159679471197393,
+      "value": 0.0000127234
+    },
+    {
+      "timestamp": "2022-06-02T07:09:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.000011519
+    },
+    {
+      "timestamp": "2022-06-02T07:09:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000119695
+    },
+    {
+      "timestamp": "2022-06-02T07:09:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000103662
+    },
+    {
+      "timestamp": "2022-06-02T07:09:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5754992445582381,
+      "value": 0.0000104182
+    },
+    {
+      "timestamp": "2022-06-02T07:09:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6632671372635097,
+      "value": 0.0000103231
+    },
+    {
+      "timestamp": "2022-06-02T07:09:43Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000953645
+    },
+    {
+      "timestamp": "2022-06-02T07:09:44Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000875791
+    },
+    {
+      "timestamp": "2022-06-02T07:09:45Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000866976
+    },
+    {
+      "timestamp": "2022-06-02T07:09:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4983287197657959,
+      "value": 0.00000789853
+    },
+    {
+      "timestamp": "2022-06-02T07:09:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5475462414186457,
+      "value": 0.00000769339
+    },
+    {
+      "timestamp": "2022-06-02T07:09:48Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000662947
+    },
+    {
+      "timestamp": "2022-06-02T07:09:49Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000649778
+    },
+    {
+      "timestamp": "2022-06-02T07:09:50Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000058837
+    },
+    {
+      "timestamp": "2022-06-02T07:09:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6169989814518868,
+      "value": 0.0000046724
+    },
+    {
+      "timestamp": "2022-06-02T07:09:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6649118705270649,
+      "value": 0.000004451
+    },
+    {
+      "timestamp": "2022-06-02T07:09:53Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000464396
+    },
+    {
+      "timestamp": "2022-06-02T07:09:54Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.0000048269
+    },
+    {
+      "timestamp": "2022-06-02T07:09:55Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000378269
+    },
+    {
+      "timestamp": "2022-06-02T07:09:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6566267183005722,
+      "value": 0.00000312852
+    },
+    {
+      "timestamp": "2022-06-02T07:09:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3837848633091816,
+      "value": 0.0000022114
+    },
+    {
+      "timestamp": "2022-06-02T07:09:58Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000141668
+    },
+    {
+      "timestamp": "2022-06-02T07:09:59Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 0.00000105751
+    },
+    {
+      "timestamp": "2022-06-02T07:10:00Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": 6.72467e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:10:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4942948127179722,
+      "value": 4.59941e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:10:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4890080128996005,
+      "value": 3.68001e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:10:03Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -5.62265e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:10:04Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -9.29155e-7
+    },
+    {
+      "timestamp": "2022-06-02T07:10:05Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000130681
+    },
+    {
+      "timestamp": "2022-06-02T07:10:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5989468410686736,
+      "value": -0.0000016714
+    },
+    {
+      "timestamp": "2022-06-02T07:10:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6874716417404598,
+      "value": -0.00000164093
+    },
+    {
+      "timestamp": "2022-06-02T07:10:08Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000228581
+    },
+    {
+      "timestamp": "2022-06-02T07:10:09Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000306435
+    },
+    {
+      "timestamp": "2022-06-02T07:10:10Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000417132
+    },
+    {
+      "timestamp": "2022-06-02T07:10:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6142908443039196,
+      "value": -0.00000464525
+    },
+    {
+      "timestamp": "2022-06-02T07:10:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6612936056134144,
+      "value": -0.00000461783
+    },
+    {
+      "timestamp": "2022-06-02T07:10:13Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000526542
+    },
+    {
+      "timestamp": "2022-06-02T07:10:14Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000565621
+    },
+    {
+      "timestamp": "2022-06-02T07:10:15Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000589331
+    },
+    {
+      "timestamp": "2022-06-02T07:10:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4876234836359712,
+      "value": -0.00000613623
+    },
+    {
+      "timestamp": "2022-06-02T07:10:17Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6465523710036375,
+      "value": -0.00000678728
+    },
+    {
+      "timestamp": "2022-06-02T07:10:18Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000744794
+    },
+    {
+      "timestamp": "2022-06-02T07:10:19Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000769317
+    },
+    {
+      "timestamp": "2022-06-02T07:10:20Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000797535
+    },
+    {
+      "timestamp": "2022-06-02T07:10:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6019537426137205,
+      "value": -0.00000848855
+    },
+    {
+      "timestamp": "2022-06-02T07:10:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5171515468662765,
+      "value": -0.00000943147
+    },
+    {
+      "timestamp": "2022-06-02T07:10:23Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.00000979721
+    },
+    {
+      "timestamp": "2022-06-02T07:10:24Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000100621
+    },
+    {
+      "timestamp": "2022-06-02T07:10:25Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000101648
+    },
+    {
+      "timestamp": "2022-06-02T07:10:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4615608070335497,
+      "value": -0.0000112629
+    },
+    {
+      "timestamp": "2022-06-02T07:10:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6416629864014629,
+      "value": -0.0000113937
+    },
+    {
+      "timestamp": "2022-06-02T07:10:28Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000119058
+    },
+    {
+      "timestamp": "2022-06-02T07:10:29Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000118857
+    },
+    {
+      "timestamp": "2022-06-02T07:10:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000121633
+    },
+    {
+      "timestamp": "2022-06-02T07:10:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6067778906590647,
+      "value": -0.0000128405
+    },
+    {
+      "timestamp": "2022-06-02T07:10:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5592102412785244,
+      "value": -0.0000131192
+    },
+    {
+      "timestamp": "2022-06-02T07:10:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000139146
+    },
+    {
+      "timestamp": "2022-06-02T07:10:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000140632
+    },
+    {
+      "timestamp": "2022-06-02T07:10:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000144544
+    },
+    {
+      "timestamp": "2022-06-02T07:10:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6297485946171525,
+      "value": -0.0000150227
+    },
+    {
+      "timestamp": "2022-06-02T07:10:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6477415263898472,
+      "value": -0.0000145875
+    },
+    {
+      "timestamp": "2022-06-02T07:10:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000151361
+    },
+    {
+      "timestamp": "2022-06-02T07:10:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.000016116
+    },
+    {
+      "timestamp": "2022-06-02T07:10:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000162642
+    },
+    {
+      "timestamp": "2022-06-02T07:10:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.559960440433807,
+      "value": -0.0000162457
+    },
+    {
+      "timestamp": "2022-06-02T07:10:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6100824255884869,
+      "value": -0.0000171986
+    },
+    {
+      "timestamp": "2022-06-02T07:10:43Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000169472
+    },
+    {
+      "timestamp": "2022-06-02T07:10:44Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000176429
+    },
+    {
+      "timestamp": "2022-06-02T07:10:45Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000180992
+    },
+    {
+      "timestamp": "2022-06-02T07:10:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6106832987787765,
+      "value": -0.0000182319
+    },
+    {
+      "timestamp": "2022-06-02T07:10:47Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5748677761586977,
+      "value": -0.0000180825
+    },
+    {
+      "timestamp": "2022-06-02T07:10:48Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000185083
+    },
+    {
+      "timestamp": "2022-06-02T07:10:49Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000185387
+    },
+    {
+      "timestamp": "2022-06-02T07:10:50Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.000019524
+    },
+    {
+      "timestamp": "2022-06-02T07:10:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5168239907355795,
+      "value": -0.0000189829
+    },
+    {
+      "timestamp": "2022-06-02T07:10:52Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.664847191454474,
+      "value": -0.0000194219
+    },
+    {
+      "timestamp": "2022-06-02T07:10:53Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000198647
+    },
+    {
+      "timestamp": "2022-06-02T07:10:54Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000203001
+    },
+    {
+      "timestamp": "2022-06-02T07:10:55Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000197776
+    },
+    {
+      "timestamp": "2022-06-02T07:10:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5526648408293817,
+      "value": -0.0000206405
+    },
+    {
+      "timestamp": "2022-06-02T07:10:57Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4527116640783334,
+      "value": -0.0000209188
+    },
+    {
+      "timestamp": "2022-06-02T07:10:58Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000208291
+    },
+    {
+      "timestamp": "2022-06-02T07:10:59Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.000020851
+    },
+    {
+      "timestamp": "2022-06-02T07:11:00Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000214251
+    },
+    {
+      "timestamp": "2022-06-02T07:11:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4399274110972536,
+      "value": -0.0000214505
+    },
+    {
+      "timestamp": "2022-06-02T07:11:02Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4597084397994726,
+      "value": -0.0000219168
+    },
+    {
+      "timestamp": "2022-06-02T07:11:03Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000222171
+    },
+    {
+      "timestamp": "2022-06-02T07:11:04Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000220069
+    },
+    {
+      "timestamp": "2022-06-02T07:11:05Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000224331
+    },
+    {
+      "timestamp": "2022-06-02T07:11:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4536361781717202,
+      "value": -0.0000223465
+    },
+    {
+      "timestamp": "2022-06-02T07:11:07Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5926614421687342,
+      "value": -0.0000230741
+    },
+    {
+      "timestamp": "2022-06-02T07:11:08Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000233549
+    },
+    {
+      "timestamp": "2022-06-02T07:11:09Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000235358
+    },
+    {
+      "timestamp": "2022-06-02T07:11:10Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000237318
+    },
+    {
+      "timestamp": "2022-06-02T07:11:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4486136301003282,
+      "value": -0.0000230768
+    },
+    {
+      "timestamp": "2022-06-02T07:11:12Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5787119052473231,
+      "value": -0.0000235374
+    },
+    {
+      "timestamp": "2022-06-02T07:11:13Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000235817
+    },
+    {
+      "timestamp": "2022-06-02T07:11:14Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000238959
+    },
+    {
+      "timestamp": "2022-06-02T07:11:15Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.000024368
+    },
+    {
+      "timestamp": "2022-06-02T07:11:18Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000248978
+    },
+    {
+      "timestamp": "2022-06-02T07:11:19Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000248263
+    },
+    {
+      "timestamp": "2022-06-02T07:11:20Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000243157
+    },
+    {
+      "timestamp": "2022-06-02T07:11:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4213303226829004,
+      "value": -0.0000246557
+    },
+    {
+      "timestamp": "2022-06-02T07:11:22Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4977527581681213,
+      "value": -0.0000246719
+    },
+    {
+      "timestamp": "2022-06-02T07:11:23Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000256904
+    },
+    {
+      "timestamp": "2022-06-02T07:11:24Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000251852
+    },
+    {
+      "timestamp": "2022-06-02T07:11:25Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000256515
+    },
+    {
+      "timestamp": "2022-06-02T07:11:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5766738622611743,
+      "value": -0.000025558
+    },
+    {
+      "timestamp": "2022-06-02T07:11:27Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3410884362566581,
+      "value": -0.0000249061
+    },
+    {
+      "timestamp": "2022-06-02T07:11:28Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000255053
+    },
+    {
+      "timestamp": "2022-06-02T07:11:29Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000258319
+    },
+    {
+      "timestamp": "2022-06-02T07:11:30Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000256151
+    },
+    {
+      "timestamp": "2022-06-02T07:11:32Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3612453096590321,
+      "value": -0.0000259653
+    },
+    {
+      "timestamp": "2022-06-02T07:11:33Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000264335
+    },
+    {
+      "timestamp": "2022-06-02T07:11:34Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000255075
+    },
+    {
+      "timestamp": "2022-06-02T07:11:35Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000260894
+    },
+    {
+      "timestamp": "2022-06-02T07:11:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.4295121900946491,
+      "value": -0.0000265626
+    },
+    {
+      "timestamp": "2022-06-02T07:11:37Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.5459886090664514,
+      "value": -0.0000263436
+    },
+    {
+      "timestamp": "2022-06-02T07:11:38Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000266525
+    },
+    {
+      "timestamp": "2022-06-02T07:11:39Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000265458
+    },
+    {
+      "timestamp": "2022-06-02T07:11:40Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.6459675270543095,
+      "value": -0.0000267415
+    },
+    {
+      "timestamp": "2022-06-02T07:11:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3529263346359519,
+      "value": -0.0000259565
+    },
+    {
+      "timestamp": "2022-06-02T07:11:42Z",
+      "channel": "CADC0874",
+      "segment": 292,
+      "anomaly_score": 0.3382283300913991,
+      "value": -0.0000268005
+    }
+  ],
+  "timeline_truncated": false,
+  "timeline_shown_count": 619,
+  "n_channels_affected": 3,
+  "channels_affected": [
+    "CADC0872",
+    "CADC0874",
+    "CADC0892"
+  ],
+  "channel_activation_order": [
+    "CADC0874",
+    "CADC0892",
+    "CADC0872"
+  ],
+  "is_multi_channel": true,
+  "n_events_total": 619,
+  "event_density_per_min": 85.97222222222221,
+  "persistence_class": "LONG",
+  "segment_span": 3,
+  "significance_score": 85.8035,
+  "significance_components": {
+    "anomaly_strength": 1,
+    "event_density": 0.859722,
+    "event_quantity": 0.894362,
+    "channel_breadth": 0.5,
+    "persistence": 0.75,
+    "cross_channel": 1
+  },
+  "severity_score": 8.2743,
+  "severity_components": {
+    "anomaly_strength": 1,
+    "persistence": 0.75,
+    "event_density": 0.859722,
+    "channel_breadth": 0.5
+  },
+  "severity_rules_applied": [],
+  "investigation_confidence": 0.7323,
+  "confidence_components": {
+    "evidence_quantity": 0.894362,
+    "score_consistency": 0.415164,
+    "temporal_corroboration": 1,
+    "channel_breadth": 0.5
+  },
+  "peak_anomaly_score": 1,
+  "mean_anomaly_score": 0.5958408959594654,
+  "score_std": 0.14620906068441603,
+  "hypothesis_statements": [
+    "Temporally associated anomaly sequence observed across 3 channels (spanning 50 s from first to last activation). Channel activation order: CADC0874 -> CADC0892 -> CADC0872. 3 of 3 channel pair(s) show temporal overlap.",
+    "3 channels recorded anomalous telemetry.",
+    "Channel activation order (by first anomaly): CADC0874 → CADC0892 → CADC0872.",
+    "3 of 3 channel pair(s) have overlapping or proximate anomaly windows.",
+    "CADC0874 → CADC0892: 30.0 s gap (windows_overlap=True).",
+    "CADC0892 → CADC0872: 20.0 s gap (windows_overlap=True)."
+  ],
+  "hypothesis_basis": [
+    "Channel CADC0874 (primary): First channel to activate in the observed sequence.",
+    "Channel CADC0892 (secondary): Activated 30.0 s after CADC0874.",
+    "Channel CADC0872 (secondary): Activated 50.0 s after CADC0874.",
+    "Temporal correlation observed; physical causality not confirmed. All failure-chain descriptions are evidence-supported hypotheses derived from telemetry patterns only."
+  ],
+  "mission_impact_level": "CRITICAL",
+  "mission_impact_basis": [
+    "Severity label: CRITICAL (score: 8.2743/10).",
+    "Significance score: 85.8035/100.",
+    "Mission impact level is derived from telemetry-based severity scoring only. No physical system mapping has been applied."
+  ],
+  "recommended_actions": [
+    "[ACT-888-1] Review initial anomaly channel: CADC0874: Review telemetry records for channel 'CADC0874', the first channel to show anomalous behaviour in this incident. Examine the anomaly pattern, magnitude, and timing relative to the 2 other affected channel(s).",
+    "[ACT-888-2] Review inter-channel temporal sequence (3 channels): Review the recorded temporal sequence across 3 affected channels: CADC0874 → CADC0892 → CADC0872. Examine whether the 3 recorded inter-channel temporal relationship(s) are consistent with known subsystem dependencies. Note: temporal ordering is observational only; no physical mechanism is implied.",
+    "[ACT-888-3] Review 3 temporally overlapping channel pair(s): Review the 3 channel pairs that show temporal window overlap: CADC0874+CADC0872, CADC0874+CADC0892, CADC0892+CADC0872. Concurrent anomaly windows across multiple channels may indicate a shared environmental condition or simultaneous subsystem stress. This is a temporal observation; no physical causality is inferred.",
+    "[ACT-888-4] Review high-density anomaly window (86.0 ev/min): Examine the high-density anomaly window for this incident (observed rate: 86.0 anomaly events/min, 619 total events). High event density may indicate rapid or sustained telemetry deviation during the incident window. Review individual event timestamps and magnitudes to characterise the burst pattern.",
+    "[ACT-888-5] Prioritise operator investigation (severity: CRITICAL): This incident has been flagged for prioritised operator investigation based on severity score 8.2743 (CRITICAL) and significance score 85.8035. A human operator should review this incident before lower-priority items. All scores are derived from telemetry patterns only; no physical origin or mechanism has been confirmed."
+  ],
+  "evidence_graph": {
+    "nodes": [
+      {
+        "node_id": "incident:888",
+        "node_type": "incident",
+        "attributes": {
+          "spacecraft_incident_id": 888,
+          "start_time": "2022-06-02 07:04:30+00:00",
+          "end_time": "2022-06-02 07:11:42+00:00",
+          "duration_sec": 432,
+          "n_channels_affected": 3,
+          "is_multi_channel": true,
+          "n_events_total": 619,
+          "persistence_class": "PersistenceClass.LONG",
+          "segment_span": 3,
+          "significance_score": 85.8035,
+          "severity_score": 8.2743,
+          "investigation_confidence": 0.7323,
+          "severity_label": "CRITICAL"
+        }
+      },
+      {
+        "node_id": "channel:CADC0872",
+        "node_type": "channel",
+        "attributes": {
+          "channel": "CADC0872",
+          "activation_rank": 2,
+          "role": "secondary",
+          "first_activation": "2022-06-02T07:05:20+00:00",
+          "channel_incident_id": "CADC0892_936_002"
+        }
+      },
+      {
+        "node_id": "channel:CADC0874",
+        "node_type": "channel",
+        "attributes": {
+          "channel": "CADC0874",
+          "activation_rank": 0,
+          "role": "primary",
+          "first_activation": "2022-06-02T07:04:30+00:00",
+          "channel_incident_id": "CADC0872_129_002"
+        }
+      },
+      {
+        "node_id": "channel:CADC0892",
+        "node_type": "channel",
+        "attributes": {
+          "channel": "CADC0892",
+          "activation_rank": 1,
+          "role": "secondary",
+          "first_activation": "2022-06-02T07:05:00+00:00",
+          "channel_incident_id": "CADC0874_292_002"
+        }
+      },
+      {
+        "node_id": "hypothesis:HYP-888",
+        "node_type": "hypothesis",
+        "attributes": {
+          "hypothesis_id": "HYP-888",
+          "hypothesis_type": "multi_channel",
+          "summary": "Temporally associated anomaly sequence observed across 3 channels (spanning 50 s from first to last activation). Channel activation order: CADC0874 -> CADC0892 -> CADC0872. 3 of 3 channel pair(s) show temporal overlap.",
+          "hypothesis_confidence": 0.9481,
+          "n_corroborating_pairs": 3,
+          "scientific_caveat": "Temporal correlation observed; physical causality not confirmed. All failure-chain descriptions are evidence-supported hypotheses derived from telemetry patterns only.",
+          "observed_evidence": [
+            "3 channels recorded anomalous telemetry.",
+            "Channel activation order (by first anomaly): CADC0874 → CADC0892 → CADC0872.",
+            "3 of 3 channel pair(s) have overlapping or proximate anomaly windows."
+          ],
+          "temporal_relationships": [
+            "CADC0874 → CADC0892: 30.0 s gap (windows_overlap=True).",
+            "CADC0892 → CADC0872: 20.0 s gap (windows_overlap=True)."
+          ],
+          "significance_score": 85.8035,
+          "severity_score": 8.2743
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "incident:888",
+        "target": "channel:CADC0872",
+        "relation": "affected_channel",
+        "weight": 1,
+        "label": "incident affected channel CADC0872"
+      },
+      {
+        "source": "incident:888",
+        "target": "channel:CADC0874",
+        "relation": "affected_channel",
+        "weight": 1,
+        "label": "incident affected channel CADC0874"
+      },
+      {
+        "source": "incident:888",
+        "target": "channel:CADC0892",
+        "relation": "affected_channel",
+        "weight": 1,
+        "label": "incident affected channel CADC0892"
+      },
+      {
+        "source": "channel:CADC0874",
+        "target": "channel:CADC0872",
+        "relation": "temporal_precedence",
+        "weight": 0.986111,
+        "label": "gap=50.0s overlap=True precedence=A_before_B"
+      },
+      {
+        "source": "channel:CADC0874",
+        "target": "channel:CADC0872",
+        "relation": "temporal_overlap",
+        "weight": 0.986111,
+        "label": "windows overlap; gap=50.0s overlap=True precedence=A_before_B"
+      },
+      {
+        "source": "channel:CADC0874",
+        "target": "channel:CADC0892",
+        "relation": "temporal_precedence",
+        "weight": 0.991667,
+        "label": "gap=30.0s overlap=True precedence=A_before_B"
+      },
+      {
+        "source": "channel:CADC0874",
+        "target": "channel:CADC0892",
+        "relation": "temporal_overlap",
+        "weight": 0.991667,
+        "label": "windows overlap; gap=30.0s overlap=True precedence=A_before_B"
+      },
+      {
+        "source": "channel:CADC0892",
+        "target": "channel:CADC0872",
+        "relation": "temporal_precedence",
+        "weight": 0.994444,
+        "label": "gap=20.0s overlap=True precedence=A_before_B"
+      },
+      {
+        "source": "channel:CADC0892",
+        "target": "channel:CADC0872",
+        "relation": "temporal_overlap",
+        "weight": 0.994444,
+        "label": "windows overlap; gap=20.0s overlap=True precedence=A_before_B"
+      },
+      {
+        "source": "channel:CADC0872",
+        "target": "hypothesis:HYP-888",
+        "relation": "supports_hypothesis",
+        "weight": 0.9481,
+        "label": "channel CADC0872 supports hypothesis"
+      },
+      {
+        "source": "channel:CADC0874",
+        "target": "hypothesis:HYP-888",
+        "relation": "supports_hypothesis",
+        "weight": 0.9481,
+        "label": "channel CADC0874 supports hypothesis"
+      },
+      {
+        "source": "channel:CADC0892",
+        "target": "hypothesis:HYP-888",
+        "relation": "supports_hypothesis",
+        "weight": 0.9481,
+        "label": "channel CADC0892 supports hypothesis"
+      },
+      {
+        "source": "incident:888",
+        "target": "hypothesis:HYP-888",
+        "relation": "has_hypothesis",
+        "weight": 1,
+        "label": "incident has hypothesis"
+      }
+    ]
+  },
+  "channel_incident_ids": [
+    "CADC0872_129_002",
+    "CADC0874_292_002",
+    "CADC0892_936_002"
+  ],
+  "channel_temporal_relationships": [
+    {
+      "channel_a": "CADC0874",
+      "channel_b": "CADC0872",
+      "channel_a_start": "2022-06-02T07:04:30+00:00",
+      "channel_b_start": "2022-06-02T07:05:20+00:00",
+      "temporal_gap_sec": 50,
+      "temporal_precedence": "A_before_B",
+      "windows_overlap": true
+    },
+    {
+      "channel_a": "CADC0874",
+      "channel_b": "CADC0892",
+      "channel_a_start": "2022-06-02T07:04:30+00:00",
+      "channel_b_start": "2022-06-02T07:05:00+00:00",
+      "temporal_gap_sec": 30,
+      "temporal_precedence": "A_before_B",
+      "windows_overlap": true
+    },
+    {
+      "channel_a": "CADC0892",
+      "channel_b": "CADC0872",
+      "channel_a_start": "2022-06-02T07:05:00+00:00",
+      "channel_b_start": "2022-06-02T07:05:20+00:00",
+      "temporal_gap_sec": 20,
+      "temporal_precedence": "A_before_B",
+      "windows_overlap": true
+    }
+  ],
+  "scientific_note": "Temporal correlation between anomaly events does not establish physical causality. All failure-chain descriptions are evidence-supported hypotheses derived from telemetry patterns only. No spacecraft subsystem mapping has been applied."
+}

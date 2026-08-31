@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-23T10:00:00Z",
+  "source_dataset": "OPS-SAT-AD",
+  "events": [
+    {
+      "event_id": "evt_001",
+      "timestamp": "2026-08-23T10:00:00Z",
+      "channel": "channel_A",
+      "anomaly_score": 0.91,
+      "raw_value": 58.2,
+      "expected_range": [40.0, 50.0],
+      "deviation_sigma": 3.2,
+      "detection_method": "isolation_forest"
+    },
+    {
+      "event_id": "evt_002",
+      "timestamp": "2026-08-23T10:02:00Z",
+      "channel": "channel_B",
+      "anomaly_score": 0.87,
+      "raw_value": 84.3,
+      "expected_range": [50.0, 70.0],
+      "deviation_sigma": 2.9,
+      "detection_method": "isolation_forest"
+    },
+    {
+      "event_id": "evt_003",
+      "timestamp": "2026-08-23T10:03:00Z",
+      "channel": "channel_C",
+      "anomaly_score": 0.94,
+      "raw_value": 74.1,
+      "expected_range": [80.0, 100.0],
+      "deviation_sigma": 3.5,
+      "detection_method": "isolation_forest"
+    },
+    {
+      "event_id": "evt_004",
+      "timestamp": "2026-08-23T10:05:00Z",
+      "channel": "channel_D",
+      "anomaly_score": 0.89,
+      "raw_value": 55.2,
+      "expected_range": [70.0, 90.0],
+      "deviation_sigma": 3.1,
+      "detection_method": "isolation_forest"
+    },
+    {
+      "event_id": "evt_005",
+      "timestamp": "2026-08-23T15:30:00Z",
+      "channel": "channel_A",
+      "anomaly_score": 0.83,
+      "raw_value": 51.2,
+      "expected_range": [40.0, 50.0],
+      "deviation_sigma": 2.7,
+      "detection_method": "isolation_forest"
+    }
+  ]
+}

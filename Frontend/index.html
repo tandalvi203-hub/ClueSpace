@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Mission // Incident Investigator — SMD Forensic Div</title>
+  <meta name="description"
+    content="Autonomous Telemetry Forensics & Root-Cause Reconstruction for deep space exploration anomalies and spacecraft incidents.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./src/cluespace/cluespace.css">
+  <link rel="stylesheet" href="./src/cluespace/4dEvidenceSpace.css">
+  <link rel="stylesheet" href="./src/cluespace/anomalySpatializer.css">
+  <link rel="stylesheet" href="./src/cluespace/systemWorkflow.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       INTRO SCREEN: Fullscreen Autoplay Video with Skip Intro Button
+       ========================================================================== -->
+  <div class="intro-screen" id="intro-screen">
+    <video id="intro-video" class="intro-video-player" autoplay muted playsinline preload="auto">
+      <source src="/assets/videos/intro-video.mp4" type="video/mp4">
+      <source src="./assets/videos/intro-video.mp4" type="video/mp4">
+      <source src="/assets/videos/Satellite_website_intro_animatio…_1080p_202608261616.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <!-- Top-Right Clean Transparent / Subtle Skip Intro Button -->
+    <button class="skip-intro-btn" id="btn-skip-intro" type="button" aria-label="Skip intro">
+      <span class="skip-btn-text">SKIP INTRO</span>
+      <svg class="skip-btn-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="5 4 15 12 5 20 5 4" fill="currentColor"></polygon>
+        <line x1="19" y1="5" x2="19" y2="19"></line>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Top Navigation Bar -->
+  <header class="hud-header" id="hud-header">
+    <div class="hud-nav-left">
+      <div class="brand-badge" id="brand-badge" role="button" tabindex="0" aria-label="ClueSpace Home">
+        <img src="/assets/images/cluespace-logo-transparent.png" alt="ClueSpace" class="brand-logo-img">
+      </div>
+    </div>
+
+    <nav class="hud-nav-center">
+      <ul class="nav-links">
+        <li><button class="nav-btn active" data-scroll="hero-section" id="nav-logs">MISSION LOGS</button></li>
+        <li><button class="nav-btn" data-scroll="spatializer-section" id="nav-spatializer">ANOMALY SPATIALIZER</button>
+        </li>
+        <li><button class="nav-btn" data-scroll="spacetime-section" id="nav-spacetime">TELEMETRY SPACETIME</button></li>
+        <li><button class="nav-btn" id="btn-open-cluespace">CLUESPACE CONSOLE</button></li>
+        <li><button class="nav-btn" data-scroll="workflow-section" id="btn-cluespace-system">SYSTEM</button></li>
+      </ul>
+    </nav>
+
+    <div class="hud-nav-right" id="hud-nav-right"></div>
+  </header>
+
+  <!-- Full-Page Smooth Scroll Container -->
+  <div class="scroll-container" id="scroll-container">
+
+    <!-- ==========================================================================
+         SECTION 1: Main Landing Page (Hero Section)
+         ========================================================================== -->
+    <section class="fullscreen-section hero-section" id="hero-section">
+
+      <!-- Background Video Engine for Section 1 -->
+      <div class="video-container" id="video-container">
+        <video id="hero-video" class="bg-video" autoplay loop muted playsinline preload="auto">
+          <source src="/assets/videos/hero-video.mp4" type="video/mp4">
+          <source src="/assets/videos/landing_page.mp4" type="video/mp4">
+          <source src="./assets/videos/hero-video.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+        <!-- Cinematic Lighting & Vignette Overlays -->
+        <div class="video-vignette"></div>
+        <div class="video-grid-overlay" id="grid-overlay"></div>
+        <canvas id="starfield-canvas" class="starfield-overlay"></canvas>
+      </div>
+
+      <!-- Main Hero Viewport matching Screenshot 2026-08-22 211229.png -->
+      <div class="hero-center-wrapper">
+        <div class="hero-container">
+
+          <!-- Top Tagline -->
+          <div class="hero-sup-title" id="hero-sup-title">
+            <span>SPACE MISSION</span>
+          </div>
+
+          <!-- Metallic Chrome Main Title -->
+          <h1 class="hero-main-title" id="hero-main-title" data-text="INCIDENT">
+            <span class="chrome-text">INCIDENT</span>
+          </h1>
+
+          <!-- Bottom Subheading -->
+          <div class="hero-sub-title" id="hero-sub-title">
+            <span>INVESTIGATOR</span>
+          </div>
+
+          <!-- High-Tech Laser Glowing Divider with Center Cyan Flare -->
+          <div class="hero-glowing-divider" aria-hidden="true">
+            <div class="divider-line left-line"></div>
+            <div class="divider-flare-core">
+              <div class="flare-pulse"></div>
+              <div class="flare-center"></div>
+              <div class="flare-beam"></div>
+            </div>
+            <div class="divider-line right-line"></div>
+          </div>
+
+          <!-- Bottom Forensic Tagline -->
+          <p class="hero-desc-tagline">
+            AUTONOMOUS TELEMETRY FORENSICS &amp; ROOT-CAUSE RECONSTRUCTION
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Floating Scroll Indicator to Anomaly Spatializer (Section 2) -->
+      <a href="#spatializer-section" class="scroll-down-hint" id="scroll-down-hint"
+        aria-label="Scroll down to Anomaly Spatializer">
+        <span class="scroll-down-text">ANOMALY SPATIALIZER</span>
+        <div class="scroll-down-chevron">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+      </a>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 2: Anomaly Spatializer
+         ========================================================================== -->
+    <section class="fullscreen-section spatializer-section" id="spatializer-section">
+      <!-- Subtle Deep-Space Animated Starfield Canvas -->
+      <canvas id="spatializer-space-canvas" class="spatializer-space-canvas"></canvas>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 3: Telemetry Spacetime — Full-Screen 4D Evidence Space
+         ========================================================================== -->
+    <section class="fullscreen-section spacetime-section" id="spacetime-section"></section>
+
+    <!-- ==========================================================================
+         SECTION 4: ClueSpace System — Scroll-Driven Investigation Journey
+         ========================================================================== -->
+    <section class="fullscreen-section workflow-section" id="workflow-section">
+
+      <!-- Subtle Deep-Space Animated Starfield Canvas -->
+      <canvas id="workflow-space-canvas" class="workflow-space-canvas"></canvas>
+
+      <div class="system-scroll-container">
+
+        <!-- Top Hero Overview Heading -->
+        <header class="system-hero-header">
+          <span class="system-hero-tag">SYSTEM OVERVIEW</span>
+          <h1 class="system-main-title system-brand-wordmark" aria-label="CLUESPACE"><span class="wm-clue">CLUE</span><span class="wm-space"><span class="wm-s">S</span><span class="wm-p">P</span><span class="wm-a">A</span><span class="wm-c">C</span><span class="wm-e">E</span></span></h1>
+          <h2 class="system-sub-title">From Telemetry<br>to Intelligence</h2>
+          <p class="system-desc-lead">An evidence-driven platform that detects anomalies, connects related events, and reconstructs the evidence behind them.</p>
+        </header>
+
+        <!-- Central Investigation Spine & Alternating Sequential Stages -->
+        <div class="system-journey-track" id="system-journey-track">
+
+          <!-- Continuous Central Vertical Investigation Line with Dynamic Scroll Progress -->
+          <div class="system-central-line">
+            <div class="system-central-line-progress" id="system-central-line-progress"></div>
+          </div>
+
+          <!-- STAGE 01: DETECT (Left: Text, Right: Restrained Visual) -->
+          <div class="system-step-row is-active" data-step="1" data-side="left">
+            <!-- Left: Text Content -->
+            <div class="system-col-left">
+              <div class="system-text-block">
+                <h3 class="system-step-title">Detect what's wrong.</h3>
+                <p class="system-step-desc">ClueSpace continuously monitors telemetry and identifies abnormal behavior across systems and channels.</p>
+                <div class="system-step-action-pill">
+                  <span class="system-action-icon">🧭</span>
+                  <span>Explore incidents, anomalies and investigations.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Center: Node on Spine -->
+            <div class="system-col-center">
+              <div class="system-spine-node">
+                <div class="system-spine-node-core"></div>
+                <div class="system-spine-pulse-ring"></div>
+              </div>
+              <div class="system-step-tag">
+                <span class="system-step-num">01</span>
+                <span class="system-step-name">DETECT</span>
+              </div>
+            </div>
+
+            <!-- Right: Restrained Telemetry Visual -->
+            <div class="system-col-right">
+              <div class="system-visual-container system-detect-vis">
+                <div class="vis-header-row">
+                  <span class="vis-tag-left">INCIDENT #INV-988</span>
+                  <span class="vis-badge-crit">CRITICAL</span>
+                </div>
+                <div class="vis-detect-body">
+                  <div class="vis-channel-list">
+                    <div class="vis-ch-item is-lead"><span class="vis-ch-dot"></span> CADC0888</div>
+                    <div class="vis-ch-item"><span class="vis-ch-dot"></span> CADC0872</div>
+                    <div class="vis-ch-item"><span class="vis-ch-dot"></span> CADC0873</div>
+                    <div class="vis-ch-item"><span class="vis-ch-dot"></span> CADC0894</div>
+                  </div>
+                  <div class="vis-waveform-box">
+                    <canvas id="vis-detect-canvas" class="vis-waveform-canvas"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STAGE 02: CONNECT (Left: Restrained Visual, Right: Text) -->
+          <div class="system-step-row is-upcoming" data-step="2" data-side="right">
+            <!-- Left: Restrained Constellation Visual -->
+            <div class="system-col-left">
+              <div class="system-visual-container system-connect-vis">
+                <div class="vis-header-row">
+                  <span class="vis-tag-left">TEMPORAL RELATIONSHIPS</span>
+                  <span style="font-family: var(--font-mono, monospace); font-size: 0.56rem; color: #38bdf8;">10:44:37 UTC</span>
+                </div>
+                <div class="vis-connect-body">
+                  <div class="vis-spark-lines">
+                    <div class="vis-spark-row"><span>CH-01</span><div class="vis-spark-mini-bar"></div></div>
+                    <div class="vis-spark-row"><span>CH-02</span><div class="vis-spark-mini-bar"></div></div>
+                    <div class="vis-spark-row"><span>CH-03</span><div class="vis-spark-mini-bar"></div></div>
+                    <div class="vis-spark-row"><span>CH-04</span><div class="vis-spark-mini-bar"></div></div>
+                  </div>
+                  <canvas id="vis-connect-canvas" class="vis-network-canvas"></canvas>
+                </div>
+              </div>
+            </div>
+
+            <!-- Center: Node on Spine -->
+            <div class="system-col-center">
+              <div class="system-spine-node">
+                <div class="system-spine-node-core"></div>
+                <div class="system-spine-pulse-ring"></div>
+              </div>
+              <div class="system-step-tag">
+                <span class="system-step-num">02</span>
+                <span class="system-step-name">CONNECT</span>
+              </div>
+            </div>
+
+            <!-- Right: Text Content -->
+            <div class="system-col-right">
+              <div class="system-text-block">
+                <h3 class="system-step-title">Connect the related events.</h3>
+                <p class="system-step-desc">ClueSpace connects anomalies, channels and events across time and systems to reveal hidden relationships.</p>
+                <div class="system-step-action-pill">
+                  <span class="system-action-icon">⏱</span>
+                  <span>Explore events and relationships across time and systems.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STAGE 03: RECONSTRUCT (Left: Text, Right: Restrained Visual) -->
+          <div class="system-step-row is-upcoming" data-step="3" data-side="left">
+            <!-- Left: Text Content -->
+            <div class="system-col-left">
+              <div class="system-text-block">
+                <h3 class="system-step-title">Reconstruct in 3D.</h3>
+                <p class="system-step-desc">The Anomaly Spatializer visualizes relationships in 3D space, showing how affected channels and components are connected.</p>
+                <div class="system-step-action-pill">
+                  <span class="system-action-icon">🌐</span>
+                  <span>Visualize anomalous channels and their relationships in 3D.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Center: Node on Spine -->
+            <div class="system-col-center">
+              <div class="system-spine-node">
+                <div class="system-spine-node-core"></div>
+                <div class="system-spine-pulse-ring"></div>
+              </div>
+              <div class="system-step-tag">
+                <span class="system-step-num">03</span>
+                <span class="system-step-name">RECONSTRUCT</span>
+              </div>
+            </div>
+
+            <!-- Right: Restrained 3D Satellite Spatial Visual -->
+            <div class="system-col-right">
+              <div class="system-visual-container system-recon-vis">
+                <div class="vis-recon-grid">
+                  <div class="vis-legend-stack">
+                    <div class="vis-leg-item"><span class="vis-leg-dot crit"></span> Critical</div>
+                    <div class="vis-leg-item"><span class="vis-leg-dot high"></span> High</div>
+                    <div class="vis-leg-item"><span class="vis-leg-dot mod"></span> Moderate</div>
+                    <div class="vis-leg-item"><span class="vis-leg-dot low"></span> Low</div>
+                  </div>
+                  <div class="vis-satellite-viewport">
+                    <canvas id="vis-sat-canvas" class="vis-sat-canvas"></canvas>
+                  </div>
+                  <div class="vis-recon-metrics">
+                    <div class="vis-metric-entry">
+                      <span class="vis-met-label">Affected Channels</span>
+                      <span class="vis-met-val">05</span>
+                    </div>
+                    <div class="vis-metric-entry">
+                      <span class="vis-met-label">Duration</span>
+                      <span class="vis-met-val">707s</span>
+                    </div>
+                    <div class="vis-metric-entry">
+                      <span class="vis-met-label">Peak Score</span>
+                      <span class="vis-met-val">0.990</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STAGE 04: INVESTIGATE (Left: Restrained Visual, Right: Text) -->
+          <div class="system-step-row is-upcoming" data-step="4" data-side="right">
+            <!-- Left: Restrained Forensic Workspace Visual -->
+            <div class="system-col-left">
+              <div class="system-visual-container system-inv-vis">
+                <div class="vis-timeline-track">
+                  <span>TIMELINE</span>
+                  <span class="vis-timeline-pin">◆ 10:44:37 UTC</span>
+                  <span>707s SPAN</span>
+                </div>
+                <table class="vis-evidence-table">
+                  <thead>
+                    <tr>
+                      <th>TIME</th>
+                      <th>CHANNEL</th>
+                      <th>PEAK</th>
+                      <th>ROLE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="alert-row">
+                      <td>10:44:37</td>
+                      <td>CADC0888</td>
+                      <td>0.990</td>
+                      <td>INITIATOR</td>
+                    </tr>
+                    <tr>
+                      <td>10:44:39</td>
+                      <td>CADC0872</td>
+                      <td>0.910</td>
+                      <td>AFFECTED</td>
+                    </tr>
+                    <tr>
+                      <td>10:44:50</td>
+                      <td>CADC0894</td>
+                      <td>0.880</td>
+                      <td>AFFECTED</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Center: Node on Spine -->
+            <div class="system-col-center">
+              <div class="system-spine-node">
+                <div class="system-spine-node-core"></div>
+                <div class="system-spine-pulse-ring"></div>
+              </div>
+              <div class="system-step-tag">
+                <span class="system-step-num">04</span>
+                <span class="system-step-name">INVESTIGATE</span>
+              </div>
+            </div>
+
+            <!-- Right: Text Content -->
+            <div class="system-col-right">
+              <div class="system-text-block">
+                <h3 class="system-step-title">Investigate in depth.</h3>
+                <p class="system-step-desc">ClueSpace Console helps you explore the evidence in detail, review telemetry, and trace the full sequence of events.</p>
+                <div class="system-step-action-pill">
+                  <span class="system-action-icon">🔍</span>
+                  <span>Investigate in depth, review evidence and build the full story.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- STAGE 05: EXPLAIN (Left: Text, Right: Restrained Visual) -->
+          <div class="system-step-row is-upcoming" data-step="5" data-side="left">
+            <!-- Left: Text Content -->
+            <div class="system-col-left">
+              <div class="system-text-block">
+                <h3 class="system-step-title">Turn evidence into understanding.</h3>
+                <p class="system-step-desc">ClueSpace brings everything together — anomaly, relationships, context and evidence — into a clear, understandable explanation.</p>
+                <div class="system-step-action-pill">
+                  <span class="system-action-icon">📄</span>
+                  <span>Understand the cause with evidence-backed explanations.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Center: Node on Spine -->
+            <div class="system-col-center">
+              <div class="system-spine-node">
+                <div class="system-spine-node-core"></div>
+                <div class="system-spine-pulse-ring"></div>
+              </div>
+              <div class="system-step-tag">
+                <span class="system-step-num">05</span>
+                <span class="system-step-name">EXPLAIN</span>
+              </div>
+            </div>
+
+            <!-- Right: Restrained Evidence Synthesis Visual -->
+            <div class="system-col-right">
+              <div class="system-visual-container system-explain-vis">
+                <div class="vis-explain-grid">
+                  <div class="vis-explain-list">
+                    <div class="vis-exp-row">
+                      <span class="vis-exp-key">Primary Cascade</span>
+                      <span class="vis-exp-val">CADC0888 → CADC0872 → CADC0894</span>
+                    </div>
+                    <div class="vis-exp-row">
+                      <span class="vis-exp-key">Temporal Association</span>
+                      <span class="vis-exp-val">707s Multi-Channel Window</span>
+                    </div>
+                    <div class="vis-exp-row">
+                      <span class="vis-exp-key">Investigation Basis</span>
+                      <span class="vis-exp-val">Telemetry Evidence Synthesis</span>
+                    </div>
+                  </div>
+                  <div class="vis-confidence-gauge">
+                    <svg class="vis-gauge-svg" viewBox="0 0 80 80">
+                      <defs>
+                        <linearGradient id="gaugeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stop-color="#38bdf8" />
+                          <stop offset="100%" stop-color="#c084fc" />
+                        </linearGradient>
+                      </defs>
+                      <circle class="vis-gauge-bg" cx="40" cy="40" r="33"></circle>
+                      <circle class="vis-gauge-fill" cx="40" cy="40" r="33"></circle>
+                    </svg>
+                    <div class="vis-gauge-text-wrap">
+                      <span class="vis-gauge-num">100%</span>
+                      <span class="vis-gauge-lbl">EVIDENCE</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- FINAL SECTION: ClueSpace Closing Statement & CTA -->
+        <div class="system-final-section">
+          <div class="system-final-logo-wrap">
+            <img src="/assets/images/cluespace-logo-transparent.png" alt="ClueSpace" class="system-final-logo-img">
+          </div>
+          <div class="system-final-bottom-bar">
+            <p class="system-final-statement">
+              It doesn't just detect an anomaly.<br>
+              It reconstructs the evidence behind it.
+            </p>
+            <button class="system-final-cta-btn" id="system-final-cta" type="button">
+              <span>ENTER CLUESPACE CONSOLE</span>
+              <span>→</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- ==========================================================================
+       CLUESPACE INVESTIGATION CONSOLE APP CONTAINER (Screen 3)
+       ========================================================================== -->
+  <div class="cluespace-app" id="cluespace-app" style="display: none;"></div>
+
+  <!-- ==========================================================================
+       Interactive Deep-Dive Modals / Forensic Panels
+       ========================================================================== -->
+  <div class="modals-overlay" id="modals-overlay">
+
+    <!-- Telemetry View Modal / Panel -->
+    <div class="view-panel" id="telemetry-view">
+      <div class="panel-container">
+        <div class="panel-header">
+          <div class="panel-title-wrap">
+            <span class="panel-icon">🛰️</span>
+            <h2>REAL-TIME SPACECRAFT TELEMETRY</h2>
+          </div>
+          <button class="panel-close-btn" data-close="telemetry-view">✕ ESC</button>
+        </div>
+
+        <div class="telemetry-grid">
+          <!-- Card 1: Flight Dynamics -->
+          <div class="hud-card">
+            <div class="card-header">
+              <span class="card-title">FLIGHT DYNAMICS // VECTOR</span>
+              <span class="card-badge">LIVE</span>
+            </div>
+            <div class="vector-display">
+              <div class="vector-metric">
+                <span class="label">PITCH</span>
+                <span class="number" id="dyn-pitch">+12.4°</span>
+              </div>
+              <div class="vector-metric">
+                <span class="label">YAW</span>
+                <span class="number" id="dyn-yaw">-03.1°</span>
+              </div>
+              <div class="vector-metric">
+                <span class="label">ROLL RATE</span>
+                <span class="number" id="dyn-roll">0.04 rad/s</span>
+              </div>
+              <div class="vector-metric">
+                <span class="label">ALTITUDE</span>
+                <span class="number" id="dyn-alt">418.6 KM</span>
+              </div>
+            </div>
+            <div class="gauge-container">
+              <div class="gauge-label">
+                <span>THRUST VECTOR EFFICIENCY</span>
+                <span id="dyn-thrust-val">94.8%</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 94.8%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Hull Integrity & Pressure -->
+          <div class="hud-card">
+            <div class="card-header">
+              <span class="card-title">HULL INTEGRITY &amp; SHIELD MATRIX</span>
+              <span class="card-badge">SENSORS OK</span>
+            </div>
+            <div class="shield-visualizer">
+              <div class="shield-ring ring-outer"></div>
+              <div class="shield-ring ring-inner"></div>
+              <div class="shield-status-text">
+                <span class="shield-val" id="shield-val">99.4%</span>
+                <span class="shield-lbl">STRUCTURAL INTEGRITY</span>
+              </div>
+            </div>
+            <div class="sub-metrics-list">
+              <div class="metric-row"><span>Forward Deflector:</span><span class="val text-cyan">NOMINAL</span></div>
+              <div class="metric-row"><span>Radiation Shielding:</span><span class="val text-green">14.2 mSv/h
+                  (SAFE)</span></div>
+              <div class="metric-row"><span>Micro-Meteoroid Armor:</span><span class="val text-cyan">IN TACT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Sensor Spike & Anomaly Waveform -->
+          <div class="hud-card">
+            <div class="card-header">
+              <span class="card-title">SENSOR ANOMALY SPECTRUM</span>
+              <span class="card-badge pulse">MONITORING</span>
+            </div>
+            <canvas id="waveform-canvas" class="waveform-canvas" height="120"></canvas>
+            <div class="anomaly-stats">
+              <div><span>Spike Delta:</span> <strong class="text-alert">+0.042 µV</strong></div>
+              <div><span>Confidence:</span> <strong class="text-green">99.4%</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reconstruction View -->
+    <div class="view-panel" id="reconstruction-view">
+      <div class="panel-container">
+        <div class="panel-header">
+          <div class="panel-title-wrap">
+            <span class="panel-icon">🔄</span>
+            <h2>TRAJECTORY &amp; INCIDENT RECONSTRUCTION</h2>
+          </div>
+          <button class="panel-close-btn" data-close="reconstruction-view">✕ ESC</button>
+        </div>
+
+        <div class="recon-layout">
+          <div class="recon-viewport">
+            <div class="recon-grid-box">
+              <div class="recon-target-reticle"></div>
+              <div class="recon-ship-model">
+                <div class="ship-wireframe"></div>
+                <div class="thrust-trail"></div>
+              </div>
+              <div class="recon-telemetry-hud">
+                <div>SECTOR: <strong>ORBITAL GRID EPSILON-9</strong></div>
+                <div>ESTIMATED TIME TO ENCOUNTER: <strong>00:14:38</strong></div>
+                <div>DEBRIS FLUX: <strong>&lt; 0.001 / km³</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="recon-sidebar">
+            <div class="hud-card">
+              <div class="card-header"><span class="card-title">TIMELINE SCRUBBER</span></div>
+              <div class="timeline-controls">
+                <input type="range" id="timeline-slider" min="0" max="300" value="75" class="custom-slider">
+                <div class="timeline-meta">
+                  <span>T-00:02:15</span>
+                  <span id="slider-timestamp">T+ 00:01:15 (ANOMALY LOCK)</span>
+                  <span>T+ 00:05:00</span>
+                </div>
+              </div>
+              <div class="incident-steps">
+                <div class="step-item active"><span class="step-time">00:00:12</span> Initial telemetry sync confirmed
+                </div>
+                <div class="step-item"><span class="step-time">00:01:15</span> Ion propulsion flux detected</div>
+                <div class="step-item"><span class="step-time">00:02:40</span> Auto-correction thrusters engaged</div>
+                <div class="step-item"><span class="step-time">00:04:18</span> Course stabilization nominal</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Evidence Matrix View -->
+    <div class="view-panel" id="evidence-view">
+      <div class="panel-container">
+        <div class="panel-header">
+          <div class="panel-title-wrap">
+            <span class="panel-icon">🗂️</span>
+            <h2>EVIDENCE MATRIX // DECODED BLACKBOX LOGS</h2>
+          </div>
+          <button class="panel-close-btn" data-close="evidence-view">✕ ESC</button>
+        </div>
+
+        <div class="evidence-table-card hud-card">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>LOG ID</th>
+                <th>TIMESTAMP (UTC)</th>
+                <th>SUBSYSTEM</th>
+                <th>EVENT DESCRIPTION</th>
+                <th>SEVERITY</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-cyan">#EV-0911</td>
+                <td>2026-08-22 21:12:04</td>
+                <td>HYPER-DRIVE CORE</td>
+                <td>Plasma conduit harmonic variance within tolerance (+0.12%)</td>
+                <td><span class="badge badge-low">LOW</span></td>
+                <td><span class="text-green">RESOLVED</span></td>
+              </tr>
+              <tr>
+                <td class="text-cyan">#EV-0912</td>
+                <td>2026-08-22 21:13:19</td>
+                <td>TELEMETRY RADAR</td>
+                <td>Deep space relay ping acknowledged by Station Alpha</td>
+                <td><span class="badge badge-info">INFO</span></td>
+                <td><span class="text-cyan">LOGGED</span></td>
+              </tr>
+              <tr>
+                <td class="text-cyan">#EV-0913</td>
+                <td>2026-08-22 21:14:02</td>
+                <td>NAV COMPUTER</td>
+                <td>Automated gravitational slingshot vector calculated</td>
+                <td><span class="badge badge-info">INFO</span></td>
+                <td><span class="text-green">EXECUTED</span></td>
+              </tr>
+              <tr>
+                <td class="text-cyan">#EV-0914</td>
+                <td>2026-08-22 21:14:58</td>
+                <td>FORENSIC SCANNER</td>
+                <td>Full spectrum diagnostic scan finished: Zero breach detected</td>
+                <td><span class="badge badge-nominal">NOMINAL</span></td>
+                <td><span class="text-green">VERIFIED</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Scan View -->
+    <div class="view-panel" id="scan-view">
+      <div class="panel-container">
+        <div class="panel-header">
+          <div class="panel-title-wrap">
+            <span class="panel-icon">📡</span>
+            <h2>ACTIVE DEEP-SPACE RADAR &amp; SPECTRAL SCAN</h2>
+          </div>
+          <button class="panel-close-btn" data-close="scan-view">✕ ESC</button>
+        </div>
+
+        <div class="scan-grid">
+          <div class="radar-card hud-card">
+            <div class="radar-display">
+              <div class="radar-sweep"></div>
+              <div class="radar-rings"></div>
+              <div class="radar-crosshair"></div>
+
+              <!-- Blips -->
+              <div class="radar-blip blip-1" title="Target: Research Craft SMD-7"></div>
+              <div class="radar-blip blip-2" title="Target: Relay Satellite IX"></div>
+              <div class="radar-blip blip-3" title="Target: Orbital Station Horizon"></div>
+            </div>
+            <div class="radar-footer">
+              <span>SCAN RADIUS: <strong>50,000 KM</strong></span>
+              <span>DETECTED TARGETS: <strong>3 NOMINAL / 0 HOSTILE</strong></span>
+            </div>
+          </div>
+
+          <div class="scan-info-card hud-card">
+            <div class="card-header"><span class="card-title">SPECTRAL ANALYSIS</span></div>
+            <div class="spectral-bars">
+              <div class="spec-row"><span>GAMMA RAY FLUX</span>
+                <div class="spec-bar">
+                  <div class="fill" style="width: 22%;"></div>
+                </div><span>22%</span>
+              </div>
+              <div class="spec-row"><span>X-RAY EMISSION</span>
+                <div class="spec-bar">
+                  <div class="fill" style="width: 14%;"></div>
+                </div><span>14%</span>
+              </div>
+              <div class="spec-row"><span>INFRARED THERMAL</span>
+                <div class="spec-bar">
+                  <div class="fill" style="width: 68%;"></div>
+                </div><span>68%</span>
+              </div>
+              <div class="spec-row"><span>GRAVITATIONAL WAVE</span>
+                <div class="spec-bar">
+                  <div class="fill" style="width: 05%;"></div>
+                </div><span>05%</span>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-block" id="btn-recalibrate-scan">
+              <span>⚡ RE-CALIBRATE FULL ARRAY</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Cinema Mode Exit Overlay -->
+  <div class="cinema-exit-hint" id="cinema-exit-hint">
+    <span>PRESS <kbd>ESC</kbd> OR CLICK TO EXIT CINEMA MODE</span>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

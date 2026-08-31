@@ -1,0 +1,221 @@
+{
+  "investigation_id": "INV-564",
+  "spacecraft_incident_id": 564,
+  "generated_at": "2026-08-25T18:50:34.275001Z",
+  "start_time": "2022-02-06T07:47:33Z",
+  "end_time": "2022-02-06T07:48:08Z",
+  "duration_sec": 35,
+  "timeline": [
+    {
+      "timestamp": "2022-02-06T07:43:28Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.4392104867436776,
+      "value": -0.0000210336
+    },
+    {
+      "timestamp": "2022-02-06T07:47:33Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.96,
+      "value": 0
+    },
+    {
+      "timestamp": "2022-02-06T07:48:08Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.5480869873258963,
+      "value": 0.0000129046
+    },
+    {
+      "timestamp": "2022-02-06T07:50:43Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.3226794980409268,
+      "value": -0.0000327307
+    },
+    {
+      "timestamp": "2022-02-06T07:50:53Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.5182938287697832,
+      "value": -0.0000368371
+    },
+    {
+      "timestamp": "2022-02-06T07:50:58Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.489053255375423,
+      "value": -0.0000330503
+    },
+    {
+      "timestamp": "2022-02-06T07:51:03Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.4188634913300768,
+      "value": -0.0000360203
+    },
+    {
+      "timestamp": "2022-02-06T07:51:08Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.3239677491215089,
+      "value": -0.0000341666
+    },
+    {
+      "timestamp": "2022-02-06T07:51:13Z",
+      "channel": "CADC0873",
+      "segment": 1025,
+      "anomaly_score": 0.4642921160694939,
+      "value": -0.0000360214
+    }
+  ],
+  "timeline_truncated": false,
+  "timeline_shown_count": 9,
+  "n_channels_affected": 1,
+  "channels_affected": [
+    "CADC0873"
+  ],
+  "channel_activation_order": [
+    "CADC0873"
+  ],
+  "is_multi_channel": false,
+  "n_events_total": 9,
+  "event_density_per_min": 15.428571428571427,
+  "persistence_class": "SHORT",
+  "segment_span": 1,
+  "significance_score": 40.6286,
+  "significance_components": {
+    "anomaly_strength": 0.942857,
+    "event_density": 0.154286,
+    "event_quantity": 0.320285,
+    "channel_breadth": 0,
+    "persistence": 0.25,
+    "cross_channel": 0
+  },
+  "severity_score": 4.3107,
+  "severity_components": {
+    "anomaly_strength": 0.942857,
+    "persistence": 0.25,
+    "event_density": 0.154286,
+    "channel_breadth": 0
+  },
+  "severity_rules_applied": [],
+  "investigation_confidence": 0.2003,
+  "confidence_components": {
+    "evidence_quantity": 0.320285,
+    "score_consistency": 0.240627,
+    "temporal_corroboration": 0,
+    "channel_breadth": 0
+  },
+  "peak_anomaly_score": 0.96,
+  "mean_anomaly_score": 0.49827193475297626,
+  "score_std": 0.18984317295921466,
+  "hypothesis_statements": [
+    "Single-channel anomaly observed on CADC0873 (9 event(s), 35 s (short persistence), peak score 0.960). No inter-channel temporal sequence can be established.",
+    "Single channel affected: CADC0873.",
+    "Observed 9 anomaly event(s) over 35 s (short persistence), with peak anomaly score 0.960 and mean score 0.498.",
+    "Event density: 15.4 events/min (moderate density). Score standard deviation: 0.190 (moderate variability).",
+    "Incident severity assessed as MODERATE (score: 4.3107/10).",
+    "No multi-channel temporal relationships available.",
+    "Single-channel incident; no inter-channel temporal ordering possible."
+  ],
+  "hypothesis_basis": [
+    "Channel CADC0873 (primary): Only channel affected; no relative ordering.",
+    "Temporal correlation observed; physical causality not confirmed. All failure-chain descriptions are evidence-supported hypotheses derived from telemetry patterns only."
+  ],
+  "mission_impact_level": "MODERATE",
+  "mission_impact_basis": [
+    "Severity label: MODERATE (score: 4.3107/10).",
+    "Significance score: 40.6286/100.",
+    "Mission impact level is derived from telemetry-based severity scoring only. No physical system mapping has been applied."
+  ],
+  "recommended_actions": [
+    "[ACT-564-1] Review initial anomaly channel: CADC0873: Review telemetry records for channel 'CADC0873', the sole affected channel in this incident. Examine the anomaly pattern, magnitude, and timing."
+  ],
+  "evidence_graph": {
+    "nodes": [
+      {
+        "node_id": "incident:564",
+        "node_type": "incident",
+        "attributes": {
+          "spacecraft_incident_id": 564,
+          "start_time": "2022-02-06 07:47:33+00:00",
+          "end_time": "2022-02-06 07:48:08+00:00",
+          "duration_sec": 35,
+          "n_channels_affected": 1,
+          "is_multi_channel": false,
+          "n_events_total": 9,
+          "persistence_class": "PersistenceClass.SHORT",
+          "segment_span": 1,
+          "significance_score": 40.6286,
+          "severity_score": 4.3107,
+          "investigation_confidence": 0.2003,
+          "severity_label": "MODERATE"
+        }
+      },
+      {
+        "node_id": "channel:CADC0873",
+        "node_type": "channel",
+        "attributes": {
+          "channel": "CADC0873",
+          "activation_rank": 0,
+          "role": "primary",
+          "channel_incident_id": "CADC0873_1025_003"
+        }
+      },
+      {
+        "node_id": "hypothesis:HYP-564",
+        "node_type": "hypothesis",
+        "attributes": {
+          "hypothesis_id": "HYP-564",
+          "hypothesis_type": "single_channel",
+          "summary": "Single-channel anomaly observed on CADC0873 (9 event(s), 35 s (short persistence), peak score 0.960). No inter-channel temporal sequence can be established.",
+          "hypothesis_confidence": 0,
+          "n_corroborating_pairs": 0,
+          "scientific_caveat": "Temporal correlation observed; physical causality not confirmed. All failure-chain descriptions are evidence-supported hypotheses derived from telemetry patterns only.",
+          "observed_evidence": [
+            "Single channel affected: CADC0873.",
+            "Observed 9 anomaly event(s) over 35 s (short persistence), with peak anomaly score 0.960 and mean score 0.498.",
+            "Event density: 15.4 events/min (moderate density). Score standard deviation: 0.190 (moderate variability).",
+            "Incident severity assessed as MODERATE (score: 4.3107/10).",
+            "No multi-channel temporal relationships available."
+          ],
+          "temporal_relationships": [
+            "Single-channel incident; no inter-channel temporal ordering possible."
+          ],
+          "significance_score": 40.6286,
+          "severity_score": 4.3107
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "incident:564",
+        "target": "channel:CADC0873",
+        "relation": "affected_channel",
+        "weight": 1,
+        "label": "incident affected channel CADC0873"
+      },
+      {
+        "source": "channel:CADC0873",
+        "target": "hypothesis:HYP-564",
+        "relation": "supports_hypothesis",
+        "weight": 0,
+        "label": "channel CADC0873 supports hypothesis"
+      },
+      {
+        "source": "incident:564",
+        "target": "hypothesis:HYP-564",
+        "relation": "has_hypothesis",
+        "weight": 1,
+        "label": "incident has hypothesis"
+      }
+    ]
+  },
+  "channel_incident_ids": [
+    "CADC0873_1025_003"
+  ],
+  "channel_temporal_relationships": [],
+  "scientific_note": "Temporal correlation between anomaly events does not establish physical causality. All failure-chain descriptions are evidence-supported hypotheses derived from telemetry patterns only. No spacecraft subsystem mapping has been applied."
+}
