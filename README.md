@@ -1,34 +1,42 @@
-<p align="center">
-  <img src="frontend/public/assets/images/cluespace-banner.png" alt="ClueSpace Banner" width="750">
-</p>
+# ClueSpace — Space Mission Incident Investigator
 
-<h1 align="center">
-  <em>ClueSpace</em> — Space Mission Incident Investigator
-</h1>
+*Where telemetry becomes evidence, and anomalies become answers.*
 
-<p align="center">
-  <em>Where telemetry becomes evidence, and anomalies become answers.</em>
-</p>
+**Challenge theme:** Space Telemetry & Autonomous AI Systems  
+**Challenge:** IBM Bob AI Builders Challenge (August)
 
-<p align="center">
-  <strong>Challenge Theme:</strong> Autonomous Space Telemetry & AI Systems <br>
-  <strong>Hackathon:</strong> IBM Bob AI Builders Challenge (August) <br>
-  🌐 <strong>Live App:</strong> <a href="https://clue-space.vercel.app/">https://clue-space.vercel.app/</a> &nbsp;|&nbsp; 
-  🎬 <strong>Demo Video:</strong> <a href="YOUR_DEMO_VIDEO_LINK">Watch on YouTube</a>
-</p>
+**Try it here:** https://cluespace-app.railway.app  
+*(Replace with your live deployment link)*
 
 ---
 
-## 🌌 The Challenge
+## Motivation
 
-> **"An anomaly is a signal. An incident is a story."**
+Modern satellites generate hundreds of thousands of multi-channel telemetry data points every second. When complex anomalies occur in orbit, manual incident diagnosis across isolated 2D charts takes hours or even days—wasting critical time when spacecraft assets are on the line.
 
-Modern spacecraft continuously generate high-frequency telemetry across hundreds of isolated subsystem channels. Detecting an anomaly indicates that something unusual occurred—but not *how* or *why* the incident unfolded.
+**ClueSpace** is an autonomous telemetry forensics and root-cause reconstruction engine. It ingests high-frequency spacecraft sensor streams, reconstructs cascade anomalies in interactive 3D/4D space, and correlates multi-channel telemetry into clear, evidence-backed diagnostic playbooks.
 
-```text
-       TRADITIONAL ANOMALY DETECTION              CLUESPACE INCIDENT RECONSTRUCTION
-     ┌───────────────────────────────┐           ┌───────────────────────────────────┐
-     │ Isolated 2D Spikes            │    vs.    │ 3D Spatial + 4D Temporal Context  │
-     │ "Channel CADC0888 deviated"   │           │ "CADC0888 triggered cascade in 5 │
-     │ Hours of manual log cross-ref │           │ channels over a 57s sequence"     │
-     └───────────────────────────────┘           └───────────────────────────────────┘
+---
+
+## How to Use
+
+1. **Explore Mission Control** — View real-time fleet intelligence, severity distributions, and cross-channel failure classifications across 805+ reconstructed incidents.
+2. **Launch the Anomaly Spatializer** — Inspect live telemetry mapped directly onto a 3D satellite model to see physical subsystem stress and channel-level deviations.
+3. **Scrub Telemetry Spacetime** — Play the 4D timeline visualizer to watch how anomaly clusters physically propagate across telemetry channels.
+4. **Select an Incident Investigation** — Filter by severity (Critical / High / Moderate / Low) and load complete forensic cases (e.g., Incident `INV-988`).
+5. **Review Evidence Graph & Playbook** — Inspect the millisecond activation sequence, 99% signal pattern similarity links, and execute priority-ranked diagnostic actions.
+
+---
+
+## Demo
+
+**Demo video:** https://youtu.be/your-video-link
+
+| | |
+|:---:|:---:|
+| <img src="screenshots/hero_spatializer.png" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/spacetime_4d.png" width="100%" alt="Telemetry Spacetime 4D"/> |
+| <img src="screenshots/mission_control.png" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.png" width="100%" alt="Forensic Investigation Workspace"/> |
+
+---
+
+## Tech Stack
