@@ -113,5 +113,10 @@ It is to reduce the work required to assemble the evidence behind that judgment.
 * **Testing & Robustness:** Iterated with Bob to construct unit test suites for schema validation, temporal graph construction, and edge-case multi-channel cascades.
 
 ---
+## Why It Matters
+
+Spacecraft operations are data-rich, but incident investigation can still become evidence-poor when related signals are scattered across telemetry channels and time.
+ClueSpace helps close that gap by turning fragmented telemetry into a structured investigation that an engineer can inspect, question, and act on.
+Instead of spending the investigation manually connecting scattered signals, operators can start from a reconstructed incident and work backward through the evidence.
 
 
