@@ -2,10 +2,6 @@
   <img src="frontend/public/assets/images/cluespace-banner.png" alt="ClueSpace Banner" width="750">
 </p>
 
-<h1 align="center">
-  <em>ClueSpace</em>
-</h1>
-
 # ClueSpace — IBM Bob August Challenge
 
 *Where telemetry becomes evidence, and anomalies become answers. Turn raw spacecraft telemetry into 3D spatialized root-cause investigations.*
@@ -13,9 +9,9 @@
 **Challenge theme:** Space Telemetry & Autonomous Mission Intelligence  
 **Challenge:** IBM Bob AI Builders Challenge (August)
 
-**Try it here:** https://clue-space.vercel.app/ *(or your live link)*
+**Try it here:** https://clue-space.vercel.app/ 
 
----
+
 
 ## Motivation
 
@@ -23,7 +19,7 @@ Modern satellites generate hundreds of thousands of multi-channel telemetry data
 
 **ClueSpace** is an autonomous telemetry forensics and root-cause reconstruction engine. It ingests high-frequency spacecraft sensor streams, reconstructs cascade anomalies in interactive 3D/4D space, and correlates multi-channel telemetry into clear, evidence-backed diagnostic playbooks.
 
----
+
 
 ## How to Use
 
@@ -41,9 +37,8 @@ Modern satellites generate hundreds of thousands of multi-channel telemetry data
 
 | | |
 |:---:|:---:|
-| <img src="<img width="1897" height="1022" alt="image" src="https://github.com/user-attachments/assets/a5f71fdb-6fdc-4254-9ebe-8f34fb3435df" />
-" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/spacetime_4d.png" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
-| <img src="screenshots/mission_control.png" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.png" width="100%" alt="Forensic Investigation Workspace"/> |
+| <img src="screenshots/anomaly_spatializer.jpg" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/telemetry_spacetime.jpg" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
+| <img src="screenshots/mission_control.jpg" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.jpg" width="100%" alt="Forensic Investigation Workspace"/> |
 
 ---
 
