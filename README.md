@@ -68,8 +68,7 @@ Pins telemetry anomalies to physical satellite components with real-time severit
 Visualizes multi-channel cascade propagation vectors along an interactive 4D spacetime continuum.
 
 <p align="center">
-  <img src="< "https://github.com/user-attachments/assets/ed6e9b99-ab20-420a-b941-2287e1e836c2" width="95%" alt="Telemetry Spacetime 4D Visualizer"/>
-</p>
+  <img src="https://github.com/user-attachments/assets/ed6e9b99-ab20-420a-b941-2287e1e836c2" width="95%" alt="Telemetry Spacetime 4D Visualizer"/>
 
 * **Spatiotemporal Event Clusters:** Maps anomaly occurrences across both 3D coordinate space and time simultaneously.
 * **Timeline Scrubber:** Allows flight controllers to scrub across milliseconds and visually track cascade propagation vectors.
