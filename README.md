@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Frontend/public/assets/images/cluespace-banner.png" alt="ClueSpace Banner" width="750">
+  <img src="frontend/public/assets/images/cluespace-banner.png" alt="ClueSpace Banner" width="750">
 </p>
 
 <h1 align="center">
