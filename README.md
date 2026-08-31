@@ -7,7 +7,7 @@
 </h1>
 
 <p align="left">
-  <strong>Vercel App</strong> - YOUR_VERCEL_LINK
+  <strong>Try it here:</strong> -🌐https://clue-space.vercel.app/
   <br>
   <strong>Demo Video</strong> - YOUR_DEMO_VIDEO_LINK
 </p>
@@ -48,52 +48,25 @@ Instead of asking only **"What was anomalous?"**, ClueSpace helps answer:
 
 <br>
 
-## Core Capabilities
-
-### Mission-Level Intelligence
-
-A centralized mission view summarizes reconstructed incidents, severity distribution, activity over time, affected channels, and key investigation metrics.
-
-### Incident Exploration
-
-Investigators can search and filter incidents by severity and investigation identifiers before opening a specific case.
-
-### Temporal Evidence Reconstruction
-
-ClueSpace reconstructs event ordering, activation spans, channel relationships, and temporal overlap across affected telemetry channels.
-
-### Evidence Correlation
-
-Related signals can be compared to identify matching behavior, coincident fluctuations, recovery patterns, and other evidence supporting an investigation relationship.
-
-### Investigation Workspace
-
-A dedicated investigation environment brings together the timeline, telemetry relationships, evidence, hypotheses, significance, severity, and confidence.
-
-### Investigation Brief
-
-The final investigation view turns the collected evidence into a structured brief with findings, priority, mission-impact basis, and recommended investigative actions.
-
-
 
 ## Product Walkthrough
 
 <table>
   <tr>
     <td width="50%">
-      <img src="screen-shots/Mission control.png" alt="Mission Control">
+      <img src="./screen-shots/Mission control.png" alt="Mission Control">
     </td>
     <td width="50%">
-      <img src="screen-shots/Incident-explorer.png" alt="Incident Explorer">
+      <img src="./screen-shots/Incident-explorer.png" alt="Incident Explorer">
     </td>
   </tr>
 
   <tr>
     <td width="50%">
-      <img src="screen-shots/anomaly-spatializer.png" alt="Anomaly Spatializer">
+      <img src="./screen-shots/anomaly-spatializer.png" alt="Anomaly Spatializer">
     </td>
     <td width="50%">
-      <img src="screen-shots/Telemetry-spacetime.png" alt="Telemetry Spacetime">
+      <img src="./screen-shots/Telemetry-spacetime.png" alt="Telemetry Spacetime">
     </td>
   </tr>
 </table>
