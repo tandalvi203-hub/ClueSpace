@@ -37,7 +37,8 @@ Modern satellites generate hundreds of thousands of multi-channel telemetry data
 
 | | |
 |:---:|:---:|
-| <img src="screenshots/anomaly_spatializer.jpg" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/telemetry_spacetime.jpg" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
+| <img src="<img width="100%" height="1022" alt="3D Anomaly Spatialize" src="https://github.com/user-attachments/assets/f23dcddc-dcfa-4498-a86c-434a90f4a4f4"/>
+ | <img src="screenshots/telemetry_spacetime.jpg" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
 | <img src="screenshots/mission_control.jpg" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.jpg" width="100%" alt="Forensic Investigation Workspace"/> |
 
 ---
