@@ -6,21 +6,14 @@
   <em>ClueSpace</em>
 </h1>
 
-
-<p align="left">
-  <strong>
-    ClueSpace reconstructs spacecraft incidents from telemetry and connects
-    anomalies into evidence-backed investigation hypotheses so operators can
-    understand what happened and what to investigate next.
-  </strong>
-</p>
-
 <p align="left">
   <strong>Vercel App</strong> - YOUR_VERCEL_LINK
   <br>
   <strong>Demo Video</strong> - YOUR_DEMO_VIDEO_LINK
 </p>
+</p>
 
+<br>
 
 ## The Challenge
 > **An anomaly is a signal. An incident is a story.**
@@ -36,6 +29,7 @@ This creates an **investigation gap**: engineers can identify abnormal signals, 
 That is the problem ClueSpace is built to solve.
 
 
+<br>
 
 ## The ClueSpace Approach
 
@@ -52,7 +46,7 @@ Instead of asking only **"What was anomalous?"**, ClueSpace helps answer:
 - **What evidence supports the reconstruction?**
 - **What should an investigator examine next?**
 
-
+<br>
 
 ## Core Capabilities
 
@@ -82,39 +76,27 @@ The final investigation view turns the collected evidence into a structured brie
 
 
 
-## Product Walkthrough — 4 Screens
+## Product Walkthrough
 
-### 01 — Anomaly Spatializer
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screen-shots/Mission control.png" alt="Mission Control">
+    </td>
+    <td width="50%">
+      <img src="screen-shots/Incident-explorer.png" alt="Incident Explorer">
+    </td>
+  </tr>
 
-
-
-<!-- Add Mission Control screenshot here -->
-
-<br>
-
-### 02 — Incident Explorer
-
-*Search and filter investigations to move from the mission overview into a specific incident.*
-
-<!-- Add Incident Explorer screenshot here -->
-
-<br>
-
-### 03 — Investigation Workspace
-
-*Explore timelines, telemetry relationships, evidence, patterns, and investigation context.*
-
-<!-- Add Investigation Workspace screenshot here -->
-
-<br>
-
-### 04 — WatsonX Brief
-
-*Transform the investigation findings into a structured, operator-oriented brief.*
-
-<!-- Add WatsonX Brief screenshot here -->
-
----
+  <tr>
+    <td width="50%">
+      <img src="screen-shots/anomaly-spatializer.png" alt="Anomaly Spatializer">
+    </td>
+    <td width="50%">
+      <img src="screen-shots/Telemetry-spacetime.png" alt="Telemetry Spacetime">
+    </td>
+  </tr>
+</table>
 
 ## Investigation Workflow
 
