@@ -52,6 +52,8 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 
 ## 🖥️ System Walkthrough & Visual Proof
 
+ClueSpace is designed as an investigation workflow—not just a collection of dashboards. The following views show how an operator moves from anomaly location and temporal context to fleet-level triage and evidence-backed incident investigation.
+
 | 🛰️ **3D Anomaly Spatializer** | ⏱️ **4D Telemetry Spacetime** |
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/f23dcddc-dcfa-4498-a86c-434a90f4a4f4" width="100%" alt="3D Anomaly Spatializer"/> | <img src="https://github.com/user-attachments/assets/ed6e9b99-ab20-420a-b941-2287e1e836c2" width="100%" alt="Telemetry Spacetime 4D Visualizer"/> |
