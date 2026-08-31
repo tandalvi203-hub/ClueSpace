@@ -11,7 +11,7 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 
 **Try it here:** https://clue-space.vercel.app/
 
-**[Watch the 2–3 Minute Demo](YOUR_YOUTUBE_LINK)** 
+**Demo video)** 
 
 
 ## 📌 At a Glance
