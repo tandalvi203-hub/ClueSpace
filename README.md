@@ -1,48 +1,105 @@
-<div align="center">
+<p align="center">
+  <img src="frontend/public/assets/images/cluespace-banner.png" alt="ClueSpace Banner" width="750">
+</p>
 
-# 🛰️ ClueSpace
-### Autonomous Spacecraft Telemetry Forensics & Root-Cause Reconstruction
+<h1 align="center">
+  <em>ClueSpace</em>
+</h1>
 
-**Transforming chaotic multi-sensor telemetry into spatialized evidence and automated recovery actions.**
+<p align="left">
+  <strong>Try it here:</strong> -🌐https://clue-space.vercel.app/
+  <br>
+  <strong>Demo Video</strong> - YOUR_DEMO_VIDEO_LINK
+</p>
+</p>
 
-[![Challenge](https://img.shields.io/badge/IBM%20SkillsBuild-AI%20Builders%20Challenge-blue?style=for-the-badge&logo=IBM)](https://skillsbuild.org/)
-[![Stack](https://img.shields.io/badge/Three.js-WebGL%203D-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
-[![Backend](https://img.shields.io/badge/Python-FastAPI-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+<br>
 
-[Live Application](#) • [Demo Video](#) • [Architecture](#system-architecture)
+## The Challenge
+> **An anomaly is a signal. An incident is a story.**
 
----
+Spacecraft continuously generate telemetry across numerous channels. Detecting an anomaly tells engineers that something unusual occurred—but not necessarily how the surrounding incident unfolded.
 
-</div>
+The evidence needed to investigate an incident is distributed across channels, timestamps, event sequences, anomaly windows, and temporal relationships. Events may occur seconds apart, overlap in time, or form patterns that are difficult to recognize when examined individually.
 
-## 🌌 The Mission Problem
+This creates an **investigation gap**: engineers can identify abnormal signals, but still need to determine **what happened, in what sequence, which events belong together, and what evidence supports the reconstruction.**
 
-During an orbital anomaly, spacecraft flight controllers receive high-dimensional telemetry streams containing hundreds of thousands of sensor readings. 
+> **The real challenge isn't finding the anomaly. It's reconstructing the incident from the evidence.**
 
-* **The Sifting Dilemma:** Identifying the root cause across overlapping thermal, power, and RF channels is like finding a needle in a digital haystack.
-* **Cascade Blindspots:** Over **60.1% of critical mission anomalies are multi-channel cascades**, where the true initiator channel triggers chained failures across detached subsystems.
-* **Cost of Delay:** Manual 2D telemetry analysis takes hours—costing irreplaceable mission time during critical orbital passes.
+That is the problem ClueSpace is built to solve.
 
----
 
-## ⚡ Solution: ClueSpace
+<br>
 
-**ClueSpace** is an autonomous incident investigation engine that ingests raw telemetry, reconstructs cross-sensor anomalies in **3D coordinate space and 4D spacetime**, generates statistical evidence graphs, and produces automated diagnostic playbooks for flight control teams.
+## The ClueSpace Approach
 
----
+ClueSpace moves the investigation process from isolated anomaly detection toward **evidence-based incident reconstruction**.
 
-## 🖥️ System Walkthrough & Key Capabilities
+</p>
 
-| **3D Anomaly Spatializer** | **4D Telemetry Spacetime** |
-| :---: | :---: |
-| <img src="screenshots/anomaly_spatializer.png" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/telemetry_spacetime.png" width="100%" alt="4D Telemetry Spacetime Visualizer"/> |
-| *Pins telemetry anomalies to physical satellite components with real-time severity filters.* | *Maps sensor events along a 4D spacetime continuum to track failure propagation vectors.* |
+Instead of asking only **"What was anomalous?"**, ClueSpace helps answer:
 
-| **Mission Control Intelligence** | **Forensic Investigation Workspace** |
-| :---: | :---: |
-| <img src="screenshots/mission_control.png" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.png" width="100%" alt="Investigation Workspace"/> |
-| *Fleet-level triage tracking 805 incidents, severity distributions, and vulnerable channels.* | *Reconstructs millisecond activation sequences, 99% pattern matches, and diagnostic playbooks.* |
+- **What happened?**
+- **When did it happen?**
+- **Which events are connected?**
+- **How did affected channels behave relative to one another?**
+- **What evidence supports the reconstruction?**
+- **What should an investigator examine next?**
 
----
+<br>
 
-## 🔄 The 5-Stage Forensics Pipeline
+
+## Product Walkthrough
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./screen-shots/Mission control.png" alt="Mission Control">
+    </td>
+    <td width="50%">
+      <img src="./screen-shots/Incident-explorer.png" alt="Incident Explorer">
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <img src="./screen-shots/anomaly-spatializer.png" alt="Anomaly Spatializer">
+    </td>
+    <td width="50%">
+      <img src="./screen-shots/Telemetry-spacetime.png" alt="Telemetry Spacetime">
+    </td>
+  </tr>
+</table>
+
+## Investigation Workflow
+
+<!-- Add Investigation Workflow generated image here -->
+
+
+
+## Intelligence & Evidence
+
+### From Anomaly to Explanation
+
+Anomaly detection is the **starting point—not the endpoint.**
+
+```text
+ANOMALY
+"What changed?"
+        ↓
+TEMPORAL EVIDENCE
+"When did related events occur?"
+        ↓
+CROSS-CHANNEL CORRELATION
+"Which signals behaved together?"
+        ↓
+PATTERN EVIDENCE
+"Do their behaviors match?"
+        ↓
+INCIDENT RECONSTRUCTION
+"Which events belong to the same story?"
+        ↓
+INVESTIGATION INSIGHT
+"What should be examined next?"
+
+
