@@ -6,100 +6,102 @@
   <em>ClueSpace</em>
 </h1>
 
-<p align="left">
-  <strong>Try it here:</strong> -🌐https://clue-space.vercel.app/
-  <br>
-  <strong>Demo Video</strong> - YOUR_DEMO_VIDEO_LINK
-</p>
-</p>
+# 🚀 ClueSpace
 
-<br>
+### Don't just detect the anomaly. Reconstruct the incident.
 
-## The Challenge
-> **An anomaly is a signal. An incident is a story.**
+> **ClueSpace turns fragmented spacecraft telemetry into an evidence-backed incident investigation.**
 
-Spacecraft continuously generate telemetry across numerous channels. Detecting an anomaly tells engineers that something unusual occurred—but not necessarily how the surrounding incident unfolded.
+Spacecraft continuously generate telemetry across many channels and subsystems. When something behaves unexpectedly, detecting the anomaly is only the beginning.
 
-The evidence needed to investigate an incident is distributed across channels, timestamps, event sequences, anomaly windows, and temporal relationships. Events may occur seconds apart, overlap in time, or form patterns that are difficult to recognize when examined individually.
+The harder question is:
 
-This creates an **investigation gap**: engineers can identify abnormal signals, but still need to determine **what happened, in what sequence, which events belong together, and what evidence supports the reconstruction.**
+> **What happened, how did it unfold, which events are connected, and what evidence supports the investigation?**
 
-> **The real challenge isn't finding the anomaly. It's reconstructing the incident from the evidence.**
+ClueSpace is built around this investigation gap.
 
-That is the problem ClueSpace is built to solve.
+Instead of treating anomalies as isolated alerts, ClueSpace connects related events across **channels and time**, reconstructs the incident sequence, organizes the supporting evidence, and produces a structured investigation with a leading hypothesis and recommended investigative actions.
 
+---
 
-<br>
+## 🔎 The Issue
 
-## The ClueSpace Approach
+### An anomaly is a signal. An incident is a story.
 
-ClueSpace moves the investigation process from isolated anomaly detection toward **evidence-based incident reconstruction**.
+A spacecraft incident rarely appears as one isolated telemetry value.
 
-</p>
+Related anomalies can occur across different channels and at different points in time. Some events may precede others, some may follow them, and some may overlap within the same anomaly window.
 
-Instead of asking only **"What was anomalous?"**, ClueSpace helps answer:
+The evidence needed to understand the incident therefore becomes fragmented across:
 
-- **What happened?**
-- **When did it happen?**
-- **Which events are connected?**
-- **How did affected channels behave relative to one another?**
-- **What evidence supports the reconstruction?**
-- **What should an investigator examine next?**
+**Telemetry → Channels → Timestamps → Events → Anomaly Windows**
 
-<br>
+An engineer may know that something went wrong, but still has to manually determine:
 
+- Which events belong to the same incident?
+- What happened first?
+- What happened next?
+- Which signals are related?
+- How did the incident unfold over time?
+- What evidence supports a possible explanation?
+- What should be investigated next?
 
-## Product Walkthrough
+### The real challenge isn't detecting the anomaly.
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="./screen-shots/Mission control.png" alt="Mission Control">
-    </td>
-    <td width="50%">
-      <img src="./screen-shots/Incident-explorer.png" alt="Incident Explorer">
-    </td>
-  </tr>
+### It's reconstructing the incident from the evidence.
 
-  <tr>
-    <td width="50%">
-      <img src="./screen-shots/anomaly-spatializer.png" alt="Anomaly Spatializer">
-    </td>
-    <td width="50%">
-      <img src="./screen-shots/Telemetry-spacetime.png" alt="Telemetry Spacetime">
-    </td>
-  </tr>
-</table>
+---
 
-## Investigation Workflow
+# ✨ Our Magic Solution
 
-<!-- Add Investigation Workflow generated image here -->
+ClueSpace treats spacecraft anomalies as **clues belonging to a larger incident**.
 
+It brings related telemetry events together, reconstructs their temporal relationships, connects the evidence through an interactive graph, and transforms that evidence into a structured investigation.
 
+The workflow is:
 
-## Intelligence & Evidence
+**Telemetry → Anomaly → Incident → Evidence → Investigation → Action**
 
-### From Anomaly to Explanation
+ClueSpace helps investigators move from an isolated abnormal signal to a connected understanding of the incident.
 
-Anomaly detection is the **starting point—not the endpoint.**
+The system is designed to support engineering judgment, not replace it. Instead of presenting an unexplained conclusion, ClueSpace makes the investigation trail visible so that the evidence behind a hypothesis can be inspected.
+
+---
+
+# 🛰️ How ClueSpace Works
 
 ```text
-ANOMALY
-"What changed?"
-        ↓
-TEMPORAL EVIDENCE
-"When did related events occur?"
-        ↓
-CROSS-CHANNEL CORRELATION
-"Which signals behaved together?"
-        ↓
-PATTERN EVIDENCE
-"Do their behaviors match?"
-        ↓
-INCIDENT RECONSTRUCTION
-"Which events belong to the same story?"
-        ↓
-INVESTIGATION INSIGHT
-"What should be examined next?"
-
-
+                SPACECRAFT TELEMETRY
+                         │
+                         ▼
+                 ┌───────────────┐
+                 │ Anomaly Events│
+                 └───────┬───────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │    Incident     │
+                │  Reconstruction │
+                └────────┬────────┘
+                         │
+             ┌───────────┼───────────┐
+             ▼           ▼           ▼
+          CHANNELS      TIME       EVENTS
+             │           │           │
+             └───────────┼───────────┘
+                         ▼
+                ┌─────────────────┐
+                │  Evidence Graph │
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │  Investigation  │
+                │    Hypothesis   │
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │ Recommended     │
+                │ Investigations  │
+                └─────────────────┘
