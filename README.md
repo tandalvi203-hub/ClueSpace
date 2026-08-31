@@ -13,7 +13,7 @@
 **Challenge theme:** Space Telemetry & Autonomous Mission Intelligence  
 **Challenge:** IBM Bob AI Builders Challenge (August)
 
-**Try it here:** https://cluespace.up.railway.app *(or your live link)*
+**Try it here:** https://clue-space.vercel.app/ *(or your live link)*
 
 ---
 
