@@ -14,7 +14,7 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 **Demo video:** 
 
 
-## 📌 At a Glance
+## At a Glance
 
 | Attribute | Specification |
 | :--- | :--- |
@@ -51,7 +51,7 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 * **Automated Diagnostic Playbooks:** Synthesizes complex telemetry data into ranked operational directives (e.g., transponder bus isolation, load shedding, thermal loop resets).
 
 ---
-## 🧠 AI Approach & Architecture
+## AI Approach & Architecture
 
 ClueSpace follows a hybrid intelligence approach: structured telemetry analysis and evidence-based reasoning form the foundation, while AI helps turn the reconstructed evidence into an understandable investigation.
 
@@ -84,13 +84,11 @@ The result is a traceable view of **what happened, when it happened, and which e
 ### 4. Score the Investigation
 
 The reconstructed evidence is evaluated using factors such as severity, significance, relationship strength, and sequence consistency.
-
 These signals contribute to an **investigation confidence score**, helping prioritize the strongest investigative paths.
 
 ### 5. Explain & Recommend
 
 Once the evidence has been reconstructed, ClueSpace uses AI-assisted reasoning to turn it into a clear investigation:
-
 - **Leading hypothesis**
 - **Supporting evidence**
 - **Incident explanation**
@@ -99,6 +97,7 @@ Once the evidence has been reconstructed, ClueSpace uses AI-assisted reasoning t
 The AI works from the structured evidence produced by the investigation engine rather than replacing the underlying telemetry analysis.
 
 > **ClueSpace doesn't just detect that something went wrong. It connects the clues to help explain what happened — and what to investigate next.**
+
 ## System Walkthrough & Visual Proof
 
 ClueSpace is designed as an investigation workflow—not just a collection of dashboards. The following views show how an operator moves from anomaly location and temporal context to fleet-level triage and evidence-backed incident investigation.
