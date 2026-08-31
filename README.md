@@ -27,7 +27,7 @@ ClueSpace is a spacecraft incident investigation system that turns fragmented te
 | **Investigation Output** | Structured incident dossiers with severity, confidence, supporting evidence, leading hypothesis, and recommended investigative actions. |
 | **Data Foundation** | 163,199 telemetry events across 805 reconstructed incident profiles using ESA OPS-SAT mission data. |
 | **Primary Development Tool** | **IBM Bob** — architecture, backend implementation, testing, debugging, and refinement. |
-| **Challenge** | IBM Bob AI Builders Challenge — August 2026 · *Advance Space Exploration with AI* |
+
 
 ## The Problem
 
@@ -51,44 +51,54 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 * **Automated Diagnostic Playbooks:** Synthesizes complex telemetry data into ranked operational directives (e.g., transponder bus isolation, load shedding, thermal loop resets).
 
 ---
-## AI Approach & Architecture
-ClueSpace uses a hybrid intelligence approach that combines structured telemetry analysis, temporal reasoning, evidence relationships, investigation scoring, and AI-assisted explanation.
-The core principle is simple:
+## 🧠 AI Approach & Architecture
+
+ClueSpace follows a hybrid intelligence approach: structured telemetry analysis and evidence-based reasoning form the foundation, while AI helps turn the reconstructed evidence into an understandable investigation.
 
 **Telemetry → Evidence → Investigation → Hypothesis → Action**
 
-### 1. Telemetry Ingestion & Validation
-ClueSpace loads structured spacecraft telemetry and anomaly events, validates their schema, and extracts key attributes such as timestamps, channels, anomaly scores, severity, and significance.
+### 1. Ingest & Validate
 
-### 2. Temporal & Signal Analysis
-Related events are analyzed across channels and time using:
+ClueSpace ingests spacecraft telemetry and anomaly events, validates the incoming data, and extracts the information needed for investigation — including timestamps, channels, anomaly scores, severity, and significance.
 
-- Lead-lag relationships
+### 2. Connect the Signals
+
+Instead of examining anomalies in isolation, ClueSpace looks at how events relate across **channels and time**.
+
+It evaluates:
+
+- Lead–lag relationships
 - Time-window overlap
 - Event sequence consistency
 - Signal-pattern similarity
-- Deviation and significance metrics
-This transforms isolated anomalies into relationships that can be investigated together.
+- Deviation and significance
 
-### 3. Evidence Graph Construction
-Related telemetry events are connected into an Evidence Graph. Nodes represent relevant events or channels, while relationships capture the evidence connecting them.
-This provides an inspectable structure for reconstructing how an incident unfolded.
+This turns scattered telemetry events into connected investigative evidence.
 
-### 4. Investigation Scoring
-ClueSpace evaluates the reconstructed evidence using severity, significance, relationship strength, sequence consistency, and other investigation metrics to produce an overall investigation confidence.
+### 3. Build the Evidence
 
-### 5. AI-Assisted Investigation
-The structured evidence is used to generate:
+Related events are organized into an **Evidence Graph**, where nodes represent relevant events or channels and relationships capture the evidence connecting them.
 
-- A leading investigation hypothesis
-- Supporting evidence
-- A clear explanation of the incident
-- Prioritized recommended investigative actions
-The AI operates on the reconstructed evidence rather than replacing the underlying telemetry analysis.
+The result is a traceable view of **what happened, when it happened, and which events were related**.
 
-> **ClueSpace doesn't just ask whether a signal is abnormal. It connects the evidence to help explain what happened and what to investigate next.**
+### 4. Score the Investigation
 
+The reconstructed evidence is evaluated using factors such as severity, significance, relationship strength, and sequence consistency.
 
+These signals contribute to an **investigation confidence score**, helping prioritize the strongest investigative paths.
+
+### 5. Explain & Recommend
+
+Once the evidence has been reconstructed, ClueSpace uses AI-assisted reasoning to turn it into a clear investigation:
+
+- **Leading hypothesis**
+- **Supporting evidence**
+- **Incident explanation**
+- **Prioritized investigative actions**
+
+The AI works from the structured evidence produced by the investigation engine rather than replacing the underlying telemetry analysis.
+
+> **ClueSpace doesn't just detect that something went wrong. It connects the clues to help explain what happened — and what to investigate next.**
 ## System Walkthrough & Visual Proof
 
 ClueSpace is designed as an investigation workflow—not just a collection of dashboards. The following views show how an operator moves from anomaly location and temporal context to fleet-level triage and evidence-backed incident investigation.
