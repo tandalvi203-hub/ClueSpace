@@ -71,7 +71,7 @@ ClueSpace is designed as an investigation workflow—not just a collection of da
 5. **Explain (`05`):** Synthesizes forensic findings into clear root-cause conclusions with prioritized, actionable diagnostic procedures.
 
 ---
-## 🔬 What an Investigation Produces
+## What an Investigation Produces
 
 For each reconstructed incident, ClueSpace brings the investigation into one place:
 
@@ -86,7 +86,6 @@ For each reconstructed incident, ClueSpace brings the investigation into one pla
 - Recommended investigative actions
 
 The goal is not to replace the engineer's judgment.
-
 It is to reduce the work required to assemble the evidence behind that judgment.
 
 ---
