@@ -6,102 +6,51 @@
   <em>ClueSpace</em>
 </h1>
 
-# 🚀 ClueSpace
+<div align="center">
 
-### Don't just detect the anomaly. Reconstruct the incident.
+# 🛰️ ClueSpace
+### Autonomous Spacecraft Telemetry Forensics & Root-Cause Reconstruction
 
-> **ClueSpace turns fragmented spacecraft telemetry into an evidence-backed incident investigation.**
+**Transforming chaotic multi-sensor telemetry into spatialized evidence and automated recovery actions.**
 
-Spacecraft continuously generate telemetry across many channels and subsystems. When something behaves unexpectedly, detecting the anomaly is only the beginning.
+[![Challenge](https://img.shields.io/badge/IBM%20SkillsBuild-AI%20Builders%20Challenge-blue?style=for-the-badge&logo=IBM)](https://skillsbuild.org/)
+[![Stack](https://img.shields.io/badge/Three.js-WebGL%203D-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
+[![Backend](https://img.shields.io/badge/Python-FastAPI-green?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 
-The harder question is:
-
-> **What happened, how did it unfold, which events are connected, and what evidence supports the investigation?**
-
-ClueSpace is built around this investigation gap.
-
-Instead of treating anomalies as isolated alerts, ClueSpace connects related events across **channels and time**, reconstructs the incident sequence, organizes the supporting evidence, and produces a structured investigation with a leading hypothesis and recommended investigative actions.
+[Live Application](#) • [Demo Video](#) • [Architecture](#system-architecture)
 
 ---
 
-## 🔎 The Issue
+</div>
 
-### An anomaly is a signal. An incident is a story.
+## 🌌 The Mission Problem
 
-A spacecraft incident rarely appears as one isolated telemetry value.
+During an orbital anomaly, spacecraft flight controllers receive high-dimensional telemetry streams containing hundreds of thousands of sensor readings. 
 
-Related anomalies can occur across different channels and at different points in time. Some events may precede others, some may follow them, and some may overlap within the same anomaly window.
-
-The evidence needed to understand the incident therefore becomes fragmented across:
-
-**Telemetry → Channels → Timestamps → Events → Anomaly Windows**
-
-An engineer may know that something went wrong, but still has to manually determine:
-
-- Which events belong to the same incident?
-- What happened first?
-- What happened next?
-- Which signals are related?
-- How did the incident unfold over time?
-- What evidence supports a possible explanation?
-- What should be investigated next?
-
-### The real challenge isn't detecting the anomaly.
-
-### It's reconstructing the incident from the evidence.
+* **The Sifting Dilemma:** Identifying the root cause across overlapping thermal, power, and RF channels is like finding a needle in a digital haystack.
+* **Cascade Blindspots:** Over **60.1% of critical mission anomalies are multi-channel cascades**, where the true initiator channel triggers chained failures across detached subsystems.
+* **Cost of Delay:** Manual 2D telemetry analysis takes hours—costing irreplaceable mission time during critical orbital passes.
 
 ---
 
-# ✨ Our Magic Solution
+## ⚡ Solution: ClueSpace
 
-ClueSpace treats spacecraft anomalies as **clues belonging to a larger incident**.
-
-It brings related telemetry events together, reconstructs their temporal relationships, connects the evidence through an interactive graph, and transforms that evidence into a structured investigation.
-
-The workflow is:
-
-**Telemetry → Anomaly → Incident → Evidence → Investigation → Action**
-
-ClueSpace helps investigators move from an isolated abnormal signal to a connected understanding of the incident.
-
-The system is designed to support engineering judgment, not replace it. Instead of presenting an unexplained conclusion, ClueSpace makes the investigation trail visible so that the evidence behind a hypothesis can be inspected.
+**ClueSpace** is an autonomous incident investigation engine that ingests raw telemetry, reconstructs cross-sensor anomalies in **3D coordinate space and 4D spacetime**, generates statistical evidence graphs, and produces automated diagnostic playbooks for flight control teams.
 
 ---
 
-# 🛰️ How ClueSpace Works
+## 🖥️ System Walkthrough & Key Capabilities
 
-```text
-                SPACECRAFT TELEMETRY
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │ Anomaly Events│
-                 └───────┬───────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │    Incident     │
-                │  Reconstruction │
-                └────────┬────────┘
-                         │
-             ┌───────────┼───────────┐
-             ▼           ▼           ▼
-          CHANNELS      TIME       EVENTS
-             │           │           │
-             └───────────┼───────────┘
-                         ▼
-                ┌─────────────────┐
-                │  Evidence Graph │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │  Investigation  │
-                │    Hypothesis   │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Recommended     │
-                │ Investigations  │
-                └─────────────────┘
+| **3D Anomaly Spatializer** | **4D Telemetry Spacetime** |
+| :---: | :---: |
+| <img src="screenshots/anomaly_spatializer.png" width="100%" alt="3D Anomaly Spatializer"/> | <img src="screenshots/telemetry_spacetime.png" width="100%" alt="4D Telemetry Spacetime Visualizer"/> |
+| *Pins telemetry anomalies to physical satellite components with real-time severity filters.* | *Maps sensor events along a 4D spacetime continuum to track failure propagation vectors.* |
+
+| **Mission Control Intelligence** | **Forensic Investigation Workspace** |
+| :---: | :---: |
+| <img src="screenshots/mission_control.png" width="100%" alt="Mission Control Dashboard"/> | <img src="screenshots/investigation_workspace.png" width="100%" alt="Investigation Workspace"/> |
+| *Fleet-level triage tracking 805 incidents, severity distributions, and vulnerable channels.* | *Reconstructs millisecond activation sequences, 99% pattern matches, and diagnostic playbooks.* |
+
+---
+
+## 🔄 The 5-Stage Forensics Pipeline
