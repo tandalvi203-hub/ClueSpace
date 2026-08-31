@@ -68,7 +68,7 @@ Pins telemetry anomalies to physical satellite components with real-time severit
 Visualizes multi-channel cascade propagation vectors along an interactive 4D spacetime continuum.
 
 <p align="center">
-  <img src="PASTE_SPACETIME_URL_HERE" width="95%" alt="Telemetry Spacetime 4D Visualizer"/>
+  <img src="< "https://github.com/user-attachments/assets/ed6e9b99-ab20-420a-b941-2287e1e836c2" width="95%" alt="Telemetry Spacetime 4D Visualizer"/>
 </p>
 
 * **Spatiotemporal Event Clusters:** Maps anomaly occurrences across both 3D coordinate space and time simultaneously.
@@ -80,7 +80,7 @@ Visualizes multi-channel cascade propagation vectors along an interactive 4D spa
 Fleet-wide operational triage across 805 reconstructed incidents and 163k+ telemetry data points.
 
 <p align="center">
-  <img src="PASTE_MISSION_CONTROL_URL_HERE" width="95%" alt="Mission Control Dashboard"/>
+  <img src="<isrc="https://github.com/user-attachments/assets/617f3057-cfd4-4f94-87a7-7c25526cbf2e" " width="95%" alt="Mission Control Dashboard"/>
 </p>
 
 * **Fleet Triage:** Classifies anomalies into Multi-Channel (60.1%) vs. Single-Channel (39.9%) incidents.
@@ -135,22 +135,4 @@ Automated incident dossier with activation sequences, 99% pattern match links, a
 
 ---
 
-## 🧰 Tech Stack
 
-* **Frontend & Spatial Computing:** React 18, TypeScript, Three.js, WebGL, Tailwind CSS, Lucide Icons
-* **Backend & Forensics Engine:** Python 3.11, FastAPI, NumPy, Pandas, SciPy
-* **Testing & CI:** Pytest (Unit tests across temporal sequencers and evidence graphs)
-* **AI & Development Partner:** IBM Bob
-
----
-
-## 🧪 Forensic Case Study: Incident `INV-988`
-
-| Metric | Measured Value | Forensic Finding |
-| :--- | :--- | :--- |
-| **Severity Score** | `9.375 / 10` (Critical) | High-risk orbital anomaly requiring immediate triage |
-| **Significance** | `98.75 / 100` | Broad multi-subsystem impact across critical spacecraft functions |
-| **Confidence** | `78.79%` | Verified temporal and morphology overlap across 5 telemetry channels |
-| **Initiator Channel**| `CADC0888` | Primary root event detected at `10:44:37 UTC` |
-| **Activation Span** | `57 Seconds` | Propagated: `CADC0888` $\rightarrow$ `CADC0872` $\rightarrow$ `CADC0894` $\rightarrow$ `CADC0873` $\rightarrow$ `CADC0874` |
-| **Pattern Similarity**| `99%` | Identical morphology between transponder bus and downstream thermal loop |
