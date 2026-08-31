@@ -51,6 +51,55 @@ Modern spacecraft continuously stream high-density telemetry across dozens of is
 * **Automated Diagnostic Playbooks:** Synthesizes complex telemetry data into ranked operational directives (e.g., transponder bus isolation, load shedding, thermal loop resets).
 
 ---
+## Technical Architecture
+
+ClueSpace uses a modular pipeline that transforms fragmented spacecraft telemetry into a structured, evidence-backed investigation.
+
+### Architecture Flow
+
+**Telemetry Data**  
+↓  
+**Validation & Event Characterisation**  
+↓  
+**Temporal + Signal Analysis**  
+↓  
+**Evidence Graph Construction**  
+↓  
+**Investigation Scoring**  
+↓  
+**AI-Assisted Hypothesis & Explanation**  
+↓  
+**Recommended Investigative Actions**  
+↓  
+**ClueSpace Investigation Workspace**
+
+### Core Components
+
+| Layer | Responsibility |
+| :--- | :--- |
+| **Data Layer** | Loads spacecraft telemetry and anomaly events from structured datasets and validates their schema. |
+| **Characterisation Layer** | Extracts anomaly attributes, severity, significance, channel, subsystem, and event context. |
+| **Investigation Engine** | Connects related events using temporal relationships, time-window overlap, sequence consistency, and signal-pattern similarity. |
+| **Evidence Layer** | Builds an Evidence Graph representing relationships between relevant telemetry events and reconstructs the incident timeline. |
+| **Scoring Layer** | Quantifies severity, significance, evidence strength, and investigation confidence. |
+| **AI Layer** | Interprets the structured investigation evidence to generate a leading hypothesis, explanation, and recommended next actions. |
+| **Visualization Layer** | Presents mission-level intelligence, incident timelines, Evidence Graphs, 3D spacecraft context, 4D telemetry views, and investigation dossiers. |
+
+### AI Approach
+
+ClueSpace follows a **hybrid intelligence approach**:
+
+- **Deterministic analysis** establishes the underlying telemetry relationships and investigation metrics.
+- **Evidence Graph reasoning** organizes related events into an inspectable incident structure.
+- **AI-assisted reasoning** converts the structured evidence into an understandable investigation hypothesis and recommended actions.
+- **Human operators remain in the loop**, allowing investigators to inspect the evidence behind each conclusion.
+
+> **The AI explains the evidence; it does not replace the evidence.**
+
+### Technology Stack
+
+**Python** · **Pandas** · **Pydantic** · **Pytest** · **Streamlit** · **Plotly** · **Git/GitHub** · **IBM Bob**
+
 
 ## System Walkthrough & Visual Proof
 
@@ -93,8 +142,6 @@ The goal is not to replace the engineer's judgment.
 It is to reduce the work required to assemble the evidence behind that judgment.
 
 ---
-
-
 
 ## How IBM Bob Was Used
 
