@@ -6,7 +6,7 @@
 
 ClueSpace is a spacecraft incident investigation system that turns fragmented telemetry anomalies into a connected incident story. It links related events across channels and time, reconstructs how an incident unfolded, visualizes the evidence through an interactive Evidence Graph and 3D spacecraft view, and generates a structured investigation with a leading hypothesis, confidence, supporting evidence, and recommended next actions.
 
-**Challenge theme:** Space Telemetry & Autonomous Mission Intelligence  
+**Challenge theme:** Space Mission safety and reliability solutions  
 **Challenge:** IBM Bob AI Builders Challenge (August)
 
 **Try it here:** https://clue-space.vercel.app/
