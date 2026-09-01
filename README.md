@@ -118,9 +118,11 @@ It is to reduce the work required to assemble the evidence behind that judgment.
 * **Core Forensics Engine Implementation:** Leveraged Bob to build and refine the algorithms responsible for calculating pairwise channel overlap, sequence consistency scores, and signal morphology correlations.
 * **WebGL & 3D Optimization:** Utilized Bob to implement 3D coordinate bindings from sensor IDs to satellite meshes and optimize rendering performance for 4D spacetime point clouds.
 * **Testing & Robustness:** Iterated with Bob to construct unit test suites for schema validation, temporal graph construction, and edge-case multi-channel cascades.
+
 <p align="center">
-  <img src="<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/4fe709e1-8a19-4d49-aad6-2edfb629e765" />
-L" width="600" alt="IBM Bob development workspace">
+  <img src="https://github.com/user-attachments/assets/4fe709e1-8a19-4d49-aad6-2edfb629e765"
+       width="600"
+       alt="IBM Bob development workspace">
 </p>
 <br>
 
